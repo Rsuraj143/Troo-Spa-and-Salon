@@ -1,0 +1,198 @@
+button.hum-btn {
+  position: absolute;
+  right: 58px;
+  top: 30px;
+  background: transparent;
+  border: none;
+}
+a.navbar-brand {
+  margin: 0;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background: transparent !important;
+}
+.header section#troo-da-header-section a.nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232323;
+  padding: 0 22px !important;
+}
+
+.nav-link.test button.btn.btn-primary {
+  background: transparent;
+  border-color: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232323;
+  padding: 0 22px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0 0 !important;
+}
+.nav-link.test.dropdown {
+    padding: 0 22px;
+  }
+.header section#troo-da-header-section a.nav-link:hover {
+  color: #e27394;
+}
+.active a {
+  color: #e27394 !important;
+}
+ul.dropdown-menu {
+  top: 67px !important;
+}
+a.dropdown-item {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232323 !important;
+}
+.header section#troo-da-header-section a.nav-link:hover {
+  opacity: 1;
+}
+li.nav-item {
+  position: relative;
+}
+.socail-icon ul li a i {
+  color: #000;
+  padding: 5px 4px;
+  background: #fff;
+  border-radius: 100px;
+  font-size: 16px;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+}
+.socail-icon ul li a:hover i {
+  background: #89a155;
+  color: #fff;
+}
+.socail-icon ul li {
+  display: inline-block;
+}
+.socail-icon ul {
+  border: 0px solid transparent !important;
+  padding: 0px;
+}
+.siderbar-contact ul {
+  padding: 63px 0 0 0;
+}
+.header .make-btn {
+    margin-left: 58px;
+}
+.socail-icon h4 {
+  text-transform: uppercase;
+  border-top: 1px solid rgb(39 41 62 / 20%);
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #27293e;
+  margin-top: 22px;
+  padding-top: 15px;
+  padding-bottom: 22px;
+}
+.offcanvas-body .read-cta {
+  margin-top: 30px !important;
+}
+.siderbar-contact ul li span a {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #27293e;
+  text-decoration: none;
+  display: block;
+}
+.canva-logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 183px;
+}
+.canva-logo {
+  border-bottom: 1px solid rgb(39 41 62 / 20%);
+  padding-bottom: 16px;
+  margin-bottom: 155px;
+}
+.offcanvas-body {
+  padding-left: 30px !important;
+  padding-right: 94px !important;
+}
+.siderbar-contact ul li span {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #27293e;
+  text-decoration: none;
+  display: block;
+  padding-left: 22px;
+}
+.socail-icon.siderbar-contact ul li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 79px;
+}
+.menu-col ul li {
+  list-style: none;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e27394;
+  margin-bottom: 19px;
+}
+
+.offcanvas-body {
+  padding: 6px 38px;
+}
+.offcanvas-header button.btn-close.text-reset {
+  position: absolute;
+  right: 39px;
+  top: 23px;
+  color: #000;
+  background-color: #e27394;
+  opacity: 1;
+}
+.menu-col ul li:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+section#troo-da-header-section {
+  background: #fff;
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  width: 100%;
+  padding: 20px 98px 20px 98px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  padding: 0;
+}
+a.navbar-brand {
+  padding: 0;
+}
+ul.navbar-nav {
+  margin-left: 39px;
+  margin-right: 54px;
+}
+.socail-icons ul {
+  margin: 0;
+  padding: 0;
+}
+.socail-icons ul li {
+  list-style: none;
+  padding: 0 6px;
+  display: inline-block;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}

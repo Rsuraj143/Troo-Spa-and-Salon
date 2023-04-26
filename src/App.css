@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+/* @font-face {
+    font-family: 'Script MT';
+    src: url('../font/ScriptMTBold.eot');
+    src: url('../font/ScriptMTBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/ScriptMTBold.woff2') format('woff2'),
+        url('../font/ScriptMTBold.woff') format('woff'),
+        url('../font/ScriptMTBold.ttf') format('truetype'),
+        url('../font/ScriptMTBold.svg#ScriptMTBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #232323;
+ }
+
+body h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 93px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+body h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+     color: #3E1F5C;
+     margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+body h3{
+ font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+color: #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+   color: #232323;
+    margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+body h5{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+margin: 0;
+color: #232323;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.make-btn .btn{
+    background: #3E1F5C !important;
+    box-shadow: 0px 6px 35px rgba(84, 32, 92, 0.35) !important;
+    border-radius: 5px  !important;
+    padding: 17px 22px !important;
+    border: 1px solid #3E1F5C !important;
+    font-family: 'Poppins'  !important;
+    font-style: normal  !important;
+    font-weight: 500  !important;
+    font-size: 16px  !important;
+    line-height: 24px  !important;
+    text-align: center  !important;
+      color: #FFFFFF  !important;
+     position: relative  !important;
+    z-index: 1  !important;
+    transition: all 0.3s ease 0s  !important;
+    text-decoration: none  !important;
+
+}
+.make-btn .btn:focus{ color: #555; }
+.make-btn .btn:hover{ color: #fff !important; }
+.make-btn .btn:before{
+    content: "";
+    background: #E27394;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    z-index: -1;
+    border: 1px solid  #E27394 !important;
+    transition: all 0.3s ease 0s;
+}
+.make-btn .btn:hover:before{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+header .make-btn {
+    margin-left: 58px;
+}
+
+
+
+.view-services .btn{
+    background:  #E27394 !important;
+    box-shadow: 0px 6px 35px rgba(84, 32, 92, 0.35) !important;
+    border-radius: 5px  !important;
+    padding: 17px 41px !important;
+    font-family: 'Poppins'  !important;
+    font-style: normal  !important;
+    font-weight: 500  !important;
+    font-size: 16px  !important;
+    line-height: 24px  !important;
+    text-align: center  !important;
+      color: #FFFFFF  !important;
+     position: relative  !important;
+    z-index: 1  !important;
+    transition: all 0.3s ease 0s  !important;
+    text-decoration: none  !important;
+
+}
+.view-services .btn:focus{ color: #555; }
+.view-services .btn:hover{ color: #fff !important; }
+.view-services .btn:before{
+    content: "";
+    background: #3E1F5C;
+    border: 1px solid #3E1F5C;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.view-services .btn:hover:before{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+.view-services {
+    margin-left: 58px;
 }
