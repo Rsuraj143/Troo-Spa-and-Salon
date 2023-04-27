@@ -1,0 +1,123 @@
+#troo-da-how-we-works-section {
+  background-image: url(../../Images/follow-bg.png);
+  background-color: #3e1f5c;
+  padding-top: 109px;
+  padding-bottom: 202px;
+}
+#troo-da-how-we-works-section .row {
+  align-items: center;
+}
+.how-we-works-text .troo-tile h2 {
+  color: #fff;
+}
+.how-we-txt p {
+  color: #fff;
+  position: relative;
+}
+.how-we-txt p:after {
+  background: rgb(226 115 148 / 10%);
+  width: 100px;
+  height: 100px;
+  content: "";
+  position: absolute;
+  left: -12%;
+  top: -38px;
+  border-radius: 100px;
+}
+.how-img img {
+  border-radius: 100px;
+  border: 20px solid rgb(62 31 92 / 10%);
+}
+.how-img {
+  position: relative;
+  text-align: center;
+}
+.how-img span {
+  transition: 0.5s;
+  font-family: "Script MT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  background: #232323;
+  position: absolute;
+  padding: 4px 6px;
+  border-radius: 100px;
+  right: 33%;
+}
+.how-list-text h4 {
+  transition: 0.5s;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #232323;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+section.how-work-list .row {
+  align-items: center;
+}
+.how-cc {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.arrow-col {
+  margin-left: -1px;
+  position: absolute;
+  left: 74%;
+  transform: rotateX(180deg);
+  transition: all 1s;
+  opacity: 0.2;
+}
+.how-cc:hover .arrow-col {
+  opacity: 1;
+  transform-style: preserve-3d;
+  transform: rotateX(0deg);
+}
+.how-list-text p {
+  text-align: center;
+  padding: 0 100px;
+}
+.how-cc:hover .how-list-text h4 {
+  color: #e27394;
+}
+.how-cc:hover .how-img span {
+  color: #fff;
+  background-color: #e27394;
+}
+section.how-work-list {
+  background: #ffffff;
+  box-shadow: 0px 4px 35px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  max-width: 1300px;
+  margin: -114px auto 0 auto;
+  padding-top: 51px;
+  padding-bottom: 51px;
+  position: relative;
+  z-index: 999;
+}
+.how-cc:after {
+  background: #3e1f5c;
+  position: absolute;
+  max-width: 228px;
+  height: 5px;
+  width: 100%;
+  content: "";
+  top: -52px;
+  left: 0;
+  right: 0;
+  transition: 0.5s;
+  margin: 0 auto;
+  opacity: 0;
+}
+.how-cc:hover:after {
+  opacity: 1;
+}
+

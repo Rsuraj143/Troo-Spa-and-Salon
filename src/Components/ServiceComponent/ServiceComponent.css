@@ -1,0 +1,61 @@
+section#troo-da-services-section {
+  background: rgb(62 31 92 / 5%);
+  padding-top: 113px;
+  padding-bottom: 120px;
+}
+section#troo-da-services-section .troo-tile {
+  text-align: center;
+  margin-bottom: 34px;
+}
+.services-text h4 {
+  font-weight: 700;
+  margin-bottom: 9px;
+  transition: 0.5s;
+}
+.services-text {
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid rgba(35, 35, 35, 0.2);
+  padding-top: 31px;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 100px;
+  transition: 0.5s;
+}
+.services-text p {
+  margin-bottom: 9px;
+  transition: 0.5s;
+}
+.services-text img {
+  border-radius: 15px;
+  background: rgb(62 31 92 / 10%);
+  padding: 7px 14px;
+}
+.services-img {
+  margin-top: -83px;
+  margin-left: 13px;
+  margin-right: 13px;
+  transition: 0.5s;
+}
+.services-col {
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.services-col:hover .services-text {
+  background: #3e1f5c;
+  border-top: 1px solid #3e1f5c;
+  box-shadow: 0px 6px 35px rgb(84 32 92 / 5%);
+}
+.services-col:hover .services-text h4 {
+  color: #e27394;
+}
+.services-col:hover .services-text p {
+  color: #fff;
+}
+.services-col:hover .services-text img {
+  background: #ffffff;
+}
+section#troo-da-services-section .make-btn {
+  text-align: center;
+  margin-top: 20px;
+}

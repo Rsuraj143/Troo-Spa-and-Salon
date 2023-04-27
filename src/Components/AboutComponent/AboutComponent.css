@@ -1,0 +1,147 @@
+.troo-tile span {
+  font-family: "Script MT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #e27394;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.welcome-text ul li {
+  margin-bottom: 27px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #232323;
+}
+.welcome-text ul {
+  padding: 0;
+  margin: 40px 0 50px 0;
+}
+.welcome-text ul li img {
+  background: #3e1f5c;
+  padding: 7px 7px;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+.welcome-text h4 {
+  margin: 16px 0;
+}
+.welcome-img img {
+  background: #3e1f5c;
+  box-shadow: 0px 6px 35px rgb(84 32 92 / 15%);
+  border-radius: 5px;
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 78px;
+}
+section#troo-da-welcome-section {
+  background-image: url(../../Images/BG.png);
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-repeat: no-repeat;
+}
+.welcome-img {
+  position: relative;
+}
+.welcome-img:after {
+  background-image: url(../../Images/reshot-icon.png);
+  position: absolute;
+  content: "";
+  left: -7px;
+  z-index: 1;
+  width: 814px;
+  height: 814px;
+  top: -90px;
+  z-index: -1;
+}
+.welcome-call {
+  background: #3e1f5c;
+  box-shadow: 0px 6px 35px rgb(84 32 92 / 15%);
+  border-radius: 5px;
+  padding-left: 37px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  left: 80px;
+  top: 30px;
+}
+.icon-cll img {
+  margin-top: -29px;
+}
+.wel-cll-text {
+  padding-left: 120px;
+}
+.wel-cll-text p {
+  color: #fff;
+  margin: 0;
+}
+.icon-cll {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background-color: #e27394;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+}
+.icon-cll:hover {
+  cursor: pointer;
+}
+.icon-cll::after,
+.icon-cll::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 95, 122, 1);
+  border-radius: 50%;
+  z-index: -1;
+  animation: grow 1s ease-in-out infinite;
+}
+.icon-cll::after {
+  background: rgba(255, 95, 122, 0.6);
+}
+.icon-cll::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background: rgb(95, 132, 255);
+  border-radius: 50%;
+  z-index: -1;
+  animation: grow 1s ease-in-out infinite;
+}
+.icon-cll::before {
+  background: rgba(255, 95, 122, 0.6);
+  animation-delay: -0.5s;
+}
+@keyframes grow {
+  0% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.8, 1.8);
+    opacity: 0;
+  }
+}

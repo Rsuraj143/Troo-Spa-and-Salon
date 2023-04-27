@@ -1,0 +1,122 @@
+section#troo-da-faq-section {
+  z-index: 9;
+  background: rgb(226 115 148 / 5%);
+  padding-top: 93px;
+  padding-bottom: 125px;
+  position: relative;
+}
+section#troo-da-faq-section:after {
+  z-index: -9;
+  position: absolute;
+  width: 864px;
+  height: 864px;
+  left: 0;
+  top: 52px;
+  border: 140px solid #3e1f5c;
+  opacity: 0.03;
+  content: "";
+  border-radius: 100%;
+  right: 0;
+  margin: 0 auto;
+  animation: Circulate 7s infinite linear;
+}
+@keyframes Circulate {
+  from {
+    left: 150px;
+    top: 105px;
+    transform:rotate(20deg) translate(-150.5px) rotate(-40deg);
+  }
+  to {
+    left: 150px;
+    top: 105px;
+    transform: rotate(380deg)translate(-150.5px) rotate(-40deg);
+  }
+}
+section#troo-da-faq-section .troo-tile {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.accordion-item {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+.accordion-item .accordion-button {
+  font-family: "Playfair Display" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+  color: #000000 !important;
+  border: 1px solid rgba(62, 31, 92, 0.2) !important;
+  border-radius: 3px !important;
+  margin-bottom: 30px !important;
+  background-color: transparent !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  margin-bottom: 0 !important;
+}
+.accordion-body {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232323;
+}
+.accordion-item.active button.accordion-button {
+  border: 0 !important;
+  margin-bottom: 0 !important;
+  box-shadow: none !important;
+  color: #e27394 !important;
+}
+.accordion-item.active {
+  border: 1px solid rgba(62, 31, 92, 0.2);
+  border-radius: 3px;
+}
+.accordion-item.active {
+  border: 1px solid rgba(62, 31, 92, 0.2) !important;
+  border-radius: 3px !important;
+  margin-bottom: 30px;
+}
+.accordion-button::after {
+  background-image: none !important;
+  content: "+" !important;
+  background-color: rgb(62 31 92 / 10%);
+  border-radius: 2px;
+  width: auto !important;
+  height: auto !important;
+  padding: 0 8px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #3e1f5c;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none !important;
+  content: "-" !important;
+  background-color: #e27394 !important;
+  color: #fff;
+}
+.faq-btom-txt h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3e1f5c;
+}
+.faq-btom-txt h4 a {
+  border-bottom: 1px solid #e27394;
+  color: #e27394;
+  text-decoration: none;
+}
+.faq-btom-txt {
+  text-align: center;
+  padding-top: 53px;
+}

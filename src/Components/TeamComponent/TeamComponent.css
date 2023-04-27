@@ -1,0 +1,109 @@
+section#troo-da-team-section {
+  background: rgb(226 115 148 / 5%);
+  padding: 120px 0 120px 0;
+}
+section#troo-da-team-section .troo-tile {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-dails h4 {
+  margin-bottom: 9px;
+  transition: 0.5s;
+}
+.team-col:hover h4 {
+  color: #e27394;
+}
+.team-col:hover p {
+  color: #fff;
+}
+.team-dails p {
+  transition: 0.5s;
+  margin-bottom: 23px;
+}
+.team-img img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+section#troo-da-team-section .row {
+  justify-content: center;
+}
+.team-col {
+  position: relative;
+  cursor: pointer;
+  z-index: 9;
+}
+.team-col:hover .team-dails {
+  background: #3e1f5c;
+  border: 1px solid rgba(35, 35, 35, 0.1);
+  border-radius: 5px;
+}
+.team-dails {
+  background: #ffffff;
+  border: 1px solid rgba(35, 35, 35, 0.1);
+  border-radius: 5px;
+  position: absolute;
+  bottom: -107px;
+  padding-top: 256px;
+  width: 100%;
+  transition: 0.5s;
+  z-index: -9;
+  text-align: center;
+}
+.plus-minus-toggle {
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  width: 40px;
+  right: 36px;
+  background: #e27394;
+  z-index: 99;
+  bottom: -17px;
+  border-radius: 100%;
+}
+.plus-minus-toggle:before {
+  background: #fff;
+  content: "";
+  height: 2px;
+  left: 11px;
+  position: absolute;
+  top: 18px;
+  width: 17px;
+  transition: transform 500ms ease;
+  transform: rotate(90deg);
+}
+.plus-minus-toggle:after {
+  background: #fff;
+  content: "";
+  height: 2px;
+  left: 9px;
+  position: absolute;
+  top: 18px;
+  width: 21px;
+  transition: transform 500ms ease;
+}
+.plus-minus-toggle.collapsed:after {
+  transform: rotate(0deg);
+}
+.plus-minus-toggle.collapsed:before {
+  transform: rotate(0deg);
+}
+.plus-minus-toggle .socaik-icon {
+  opacity: 0;
+}
+.plus-minus-toggle.collapsed .socaik-icon {
+  opacity: 1;
+  position: absolute;
+  bottom: 42px;
+  left: 6px;
+  transition: 0.5s;
+}
+.socaik-icon img {
+  padding-bottom: 7px;
+}
+section#troo-da-team-section .make-btn {
+  margin: 15% 0 0 0;
+  text-align: center;
+}
+
+.team .team-col{margin-bottom: 144px;}

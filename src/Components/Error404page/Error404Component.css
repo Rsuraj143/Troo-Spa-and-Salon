@@ -1,0 +1,57 @@
+.error-section {
+  background-image: url(../../Images/404.png);
+  background-color: #3e1f5c;
+  padding: 219px 0;
+}
+.err-pg {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 144px;
+  background: linear-gradient(
+    182.94deg,
+    #ffffff -6.06%,
+    rgba(217, 217, 217, 0) 72.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: -63px;
+}
+.err-tile {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 250px;
+  line-height: 250px;
+  color: #ffffff;
+}
+.err-tile strong {
+  transform: rotate(-28.4deg);
+  display: inline-block;
+  margin: 0 0 0 -72px;
+}
+.error-txt h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #ffffff;
+}
+.error-txt p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  margin: 3px 0 42px 0;
+}
+.error-txt {
+  text-align: center;
+}

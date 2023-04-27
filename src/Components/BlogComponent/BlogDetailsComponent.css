@@ -1,0 +1,116 @@
+.blogs-detail.detail-pages {
+  position: relative;
+  z-index: 9;
+}
+.blog-cat ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.tages ul li:hover {
+  background: #e27394;
+  color: #fff;
+}
+.tages ul li {
+  display: inline-block;
+  padding: 8px 9px;
+  cursor: pointer;
+}
+.tages {
+  padding-bottom: 59px;
+}
+ul.hri-s {
+  padding-top: 24px;
+}
+.bloger span {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.bloger h5 {
+  text-align: right;
+  margin-top: 12px;
+}
+.blog-de-txt .pro-txt {
+  padding-top: 48px;
+}
+.blog-de-txt {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+.share-socail-icon {
+  display: flex;
+  border-top: 1px solid rgb(35 35 35 / 20%);
+  border-bottom: 1px solid rgb(35 35 35 / 20%);
+  padding-top: 16px;
+  padding-bottom: 13px;
+  margin-top: 100px;
+  align-items: center;
+}
+.share-socail-icon .socail-icons {
+  margin-left: 23px;
+}
+.share-socail-icon p {
+  margin: 0;
+}
+.blogs-detail section#troo-da-blog-section {
+  background-image: none;
+  background-color: #fff;
+}
+.blogs-detail section#troo-da-blog-section h2 {
+  text-align: center;
+}
+.commet-from.contact-form {
+  border: none;
+  padding: 0;
+}
+label.form-check-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #232323;
+}
+input#gridCheck {
+  width: 18px;
+  height: 18px;
+}
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+.form-check {
+  padding-top: 43px;
+}
+.commet-from.contact-form h4 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232323;
+  margin-bottom: 22px;
+  margin-top: 26px;
+}
+.commet-from.contact-form span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #232323;
+  display: block;
+  margin-bottom: 32px;
+}
+.commet-from.contact-form .form-control:focus {
+  box-shadow: none !important;
+  border: 1px solid rgba(226, 115, 146, 0.5) !important;
+  border-radius: 5px;
+}
+.commet-from.contact-form textarea:focus-visible {
+  outline-offset: 0px;
+  outline: none !important;
+  border: 1px solid rgba(226, 115, 146, 0.5) !important;
+  border-radius: 5px;
+}

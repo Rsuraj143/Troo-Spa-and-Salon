@@ -63,7 +63,7 @@ export const HeaderData = [
       {
         subTitle: "FAQ's",
         heading: "Questions and Answers",
-        path: "/Home/FAQ's",
+        path: "/Home/FAQ",
       },
       {
         subTitle: "Pricing Table",
@@ -78,7 +78,7 @@ export const HeaderData = [
       {
         subTitle: "404",
         heading: "404 Error",
-        path: "/Home/404",
+        path: "/Home/Error404",
       },
     ],
   },

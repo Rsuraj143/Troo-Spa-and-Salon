@@ -1,0 +1,119 @@
+.team-member {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+.team-member-details {
+  background-color: #3e1f5c;
+  border-radius: 5px;
+  padding-left: 33px;
+  padding-top: 35px;
+  background-image: url(../../Images/chat.png);
+  background-repeat: no-repeat;
+  background-position: 97%;
+  padding-bottom: 34px;
+  padding-right: 34px;
+  position: absolute;
+  bottom: 41px;
+  width: 100%;
+  left: 9%;
+}
+.tema-link-call a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.team-member-details h5 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #e27394;
+  text-align: left;
+}
+.tema-link-call {
+  padding-left: 9px;
+}
+.team-call {
+  display: flex;
+}
+.team-member-details h5:after {
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  left: 0;
+  bottom: 13px;
+  background: #ffffff;
+  content: "";
+}
+.team-member-details h5 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #e27394;
+  text-align: left;
+  position: relative;
+  padding-bottom: 25px;
+}
+.teams-details {
+  padding-left: 121px;
+}
+.postion-team h4 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  color: #3e1f5c;
+}
+.postion-team p {
+  margin: 4px 0 0 0;
+}
+.team-member-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(62 31 92 / 20%);
+  padding-bottom: 18px;
+  margin-bottom: 21px;
+}
+.des-team h5 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #3e1f5c;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.des-team ul li img {
+  background: #3e1f5c;
+  padding: 2px 2px;
+  border-radius: 100px;
+}
+.des-team ul li span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232323;
+  padding-left: 10px;
+}
+.des-team ul li {
+  display: flex;
+  align-items: center;
+  padding: 11px 0;
+}
+section#troo-da-team-detail-section {
+  padding-top: 100px;
+}

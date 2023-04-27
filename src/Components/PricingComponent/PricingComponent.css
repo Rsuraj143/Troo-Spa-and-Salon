@@ -1,0 +1,164 @@
+.troo-da-price-section {
+  background-image: url(../../Images/prices-bg.png);
+  background-color: #ffff;
+  padding-top: 111px;
+  padding-bottom: 120px;
+}
+section#troo-da-price-section .row {
+  align-items: center;
+}
+.pricing-text:after {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: -66px;
+  background: #e27394;
+  opacity: 0.1;
+  content: "";
+  bottom: -12px;
+  border-radius: 100px;
+}
+.pricing-text {
+  position: relative;
+}
+.pricing-title h4 {
+  transition: 0.5s;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #232323;
+}
+.pricing-icon svg {
+  background: #232323;
+  border-radius: 3px 0px 0px 3px;
+  padding: 0 16px;
+  width: 70px;
+  height: 70px;
+  transition: 0.5s;
+}
+.pricing-ss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing-title .review-star {
+  margin: 16px 0 0 0;
+}
+.pricing-col {
+  background: #ffffff;
+  border: 1px solid rgba(35, 35, 35, 0.2);
+  margin-top: 40px;
+  border-radius: 5px;
+  padding-top: 55px;
+  padding-left: 49px;
+  cursor: pointer;
+  padding-bottom: 52px;
+}
+.pricing-list ul li span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #232323;
+  display: inline-block;
+  padding-left: 9px;
+}
+.pricing-list ul li {
+  list-style: none;
+  padding-bottom: 27px;
+}
+.pricing-list ul {
+  padding: 0;
+  margin: 0;
+}
+.pricing-list {
+  padding-top: 35px;
+}
+.price-rate span {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #232323;
+  transition: 0.5s;
+}
+.rate-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  color: #232323;
+  padding: 0 8px 0px 13px;
+  transition: 0.5s;
+}
+.pakage-pric {
+  transition: 0.5s;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #232323;
+  position: relative;
+  top: 19px;
+}
+.price-rate {
+  display: flex;
+  padding-bottom: 23px;
+  align-items: center;
+  padding-top: 46px;
+}
+.pricing-col .make-btn a {
+  padding: 17px 94px !important;
+  margin-top: 27px;
+  background: #232323 !important;
+}
+.pricing-col .make-btn .btn:before {
+  display: none;
+}
+.pricing-col:hover .pricing-title h4 {
+  color: #e27394;
+}
+.pricing-col:hover .pricing-icon svg {
+  background: #e27394;
+}
+.pricing-col .pricing-list ul li svg path {
+  stroke: #232323;
+  transition: 0.5s;
+}
+.pricing-col:hover .pricing-list ul li svg path {
+  stroke: #e27394;
+}
+.pricing-col:hover .price-rate span {
+  color: #3e1f5c;
+}
+.pricing-col:hover .rate-text {
+  color: #3e1f5c;
+}
+.pricing-col:hover .pakage-pric {
+  color: #3e1f5c;
+}
+.pricing-col:hover .make-btn .btn:before {
+  display: block;
+}
+.pricing-col:hover .make-btn a {
+  background-color: #3e1f5c !important;
+}
+.view-all-pric .make-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+.view-all-pric .make-btn a {
+  padding: 17px 24px !important;
+  margin: 0 auto;
+  text-align: center;
+}
+.pricing-list ul li {
+  display: flex;
+  align-items: center;
+}
