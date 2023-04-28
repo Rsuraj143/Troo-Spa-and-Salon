@@ -82,16 +82,16 @@ section#troo-da-team-section .row {
   width: 21px;
   transition: transform 500ms ease;
 }
-.plus-minus-toggle.collapsed:after {
+.plus-minus-toggle:hover:after {
   transform: rotate(0deg);
 }
-.plus-minus-toggle.collapsed:before {
+.plus-minus-toggle:hover:before {
   transform: rotate(0deg);
 }
 .plus-minus-toggle .socaik-icon {
   opacity: 0;
 }
-.plus-minus-toggle.collapsed .socaik-icon {
+.plus-minus-toggle:hover .socaik-icon {
   opacity: 1;
   position: absolute;
   bottom: 42px;

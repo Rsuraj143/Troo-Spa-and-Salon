@@ -9,7 +9,7 @@
   padding-left: 70px;
   padding-right: 70px;
 }
-.conter-tx span.counter {
+.conter-tx .counter span{
   transition: 0.5s;
   font-family: "Playfair Display";
   font-style: normal;
@@ -48,7 +48,7 @@
 .conter-icon {
   padding-right: 20px;
 }
-.counter-box:hover span.counter {
+.counter-box:hover .counter span {
   color: #e27394;
 }
 .counter-box:hover .conter-tx strong {

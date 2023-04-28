@@ -101,7 +101,7 @@ section.how-work-list {
   padding-top: 51px;
   padding-bottom: 51px;
   position: relative;
-  z-index: 999;
+  z-index: 99;
 }
 .how-cc:after {
   background: #3e1f5c;

@@ -27,7 +27,7 @@ const AboutComponent = () => {
               <li><img src={check} alt='check' />Using powerful lorem ipsum dollr sit amet just dummy.</li>
               <li><img src={check} alt='check' />Lorem ipsum dollr sit amet just dummy.</li>
             </ul>
-            <div class="make-btn"> <Link href="#" class="btn btn-lg"> <span>Contact With US</span></Link></div>
+            <div class="make-btn"> <Link to="/Home/Contact_Us" class="btn btn-lg"> <span>Contact With US</span></Link></div>
           </div>
         </div>
         <div class="col-md-6">

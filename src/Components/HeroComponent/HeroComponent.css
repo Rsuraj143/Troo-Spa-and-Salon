@@ -46,12 +46,13 @@ ol.breadcrumb {
   justify-content: space-around;
   background: hsl(342deg 66% 67% / 10%);
   margin: 0 auto;
-  max-width: 179px;
-  padding: 9px 0;
   border-radius: 0px;
+  width: fit-content;
+    padding: 7px 10px;
 }
 li.breadcrumb-item {
   position: relative;
+  padding: 0 25px !important;
 }
 li.breadcrumb-item a {
   color: #fff;
@@ -66,13 +67,23 @@ li.breadcrumb-item.active {
   color: #E27394 !important;
 }
 .breadcrumb-item+.breadcrumb-item::before {
-  color: #E27394 !important;
-  content: "." !important;
-  font-size: 51px !important;
-  padding: 0;
-  position: absolute;
-  top: -14px;
-  left: -19px;
-  float: none !important;
-  padding-right: 0 !important;
+  background: #E27394 !important;
+    content: " " !important;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    float: none !important;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: block;
+    padding: 0 !important;
+    transform: translateY(-50%);
+}
+.sub-page-text h2 {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 18px;
 }

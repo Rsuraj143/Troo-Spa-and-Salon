@@ -1,9 +1,9 @@
 /* .detail-pages ol.breadcrumb {
   max-width: 320px;
 } */
-.detail-pages .breadcrumb-item + .breadcrumb-item::before {
+/* .detail-pages .breadcrumb-item + .breadcrumb-item::before {
   left: -12px;
-}
+} */
 .ser-text h4 {
   font-family: "Playfair Display";
   font-style: normal;

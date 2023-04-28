@@ -3,6 +3,9 @@ section#troo-da-services-section {
   padding-top: 113px;
   padding-bottom: 120px;
 }
+.troo-da-services-section a{
+  text-decoration: none;
+}
 section#troo-da-services-section .troo-tile {
   text-align: center;
   margin-bottom: 34px;

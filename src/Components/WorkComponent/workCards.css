@@ -11,13 +11,6 @@
 section#troo-da-our-work-section {
   padding-top: 100px;
 }
-.work-text {
-  background: #ffffff;
-  border-bottom: 1px solid #0fa00f;
-  box-shadow: 0px 8px 24px rgb(149 157 165 / 10%);
-  border-radius: 5px;
-  z-index: 999;
-}
 .work-col {
   position: relative;
   cursor: pointer;
@@ -74,6 +67,7 @@ section#troo-da-our-work-section {
   padding-left: 28px;
   max-width: 365px;
   padding-bottom: 16px;
+  z-index: 99;
 }
 .worl-ti h2 {
   text-align: center;

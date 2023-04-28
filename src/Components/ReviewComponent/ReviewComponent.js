@@ -25,9 +25,7 @@ const ReviewComponent = () => {
                 less normal distribution of letters
               </p>
               <div class="make-btn">
-                {" "}
-                <Link href="#" class="btn btn-lg">
-                  {" "}
+                <Link to="/Home/Testimonial" class="btn btn-lg">
                   <span>View All Reviews</span>
                 </Link>
               </div>

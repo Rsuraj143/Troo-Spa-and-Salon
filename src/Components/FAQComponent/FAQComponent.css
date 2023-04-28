@@ -47,9 +47,7 @@ section#troo-da-faq-section .troo-tile {
   font-size: 20px !important;
   line-height: 27px !important;
   color: #000000 !important;
-  border: 1px solid rgba(62, 31, 92, 0.2) !important;
   border-radius: 3px !important;
-  margin-bottom: 30px !important;
   background-color: transparent !important;
 }
 .accordion-button:focus {
@@ -67,20 +65,18 @@ section#troo-da-faq-section .troo-tile {
   line-height: 24px;
   color: #232323;
 }
-.accordion-item.active button.accordion-button {
+.accordion-item{
+  border: 1px solid rgba(62, 31, 92, 0.2) !important;
+    border-radius: 3px !important;
+    margin-bottom: 30px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  margin-bottom: 0 !important;
   border: 0 !important;
   margin-bottom: 0 !important;
   box-shadow: none !important;
-  color: #e27394 !important;
-}
-.accordion-item.active {
-  border: 1px solid rgba(62, 31, 92, 0.2);
-  border-radius: 3px;
-}
-.accordion-item.active {
-  border: 1px solid rgba(62, 31, 92, 0.2) !important;
-  border-radius: 3px !important;
-  margin-bottom: 30px;
+  color: #E27394 !important;
 }
 .accordion-button::after {
   background-image: none !important;

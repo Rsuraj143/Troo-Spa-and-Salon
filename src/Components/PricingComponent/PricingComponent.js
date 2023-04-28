@@ -484,9 +484,7 @@ const PricingComponent = () => {
                 <div class="pakage-pric">/ Monthy packege</div>
               </div>
               <div class="make-btn">
-                {" "}
                 <Link href="#" class="btn btn-lg">
-                  {" "}
                   <span>Select This Plan</span>
                 </Link>
               </div>
@@ -497,10 +495,8 @@ const PricingComponent = () => {
           <div class="col-md-12">
             <div class="view-all-pric">
               <div class="make-btn">
-                {" "}
-                <Link href="#" class="btn btn-lg">
-                  {" "}
-                  <span>View All Member</span>
+                <Link to="/Home/Pricing_Table" class="btn btn-lg">
+                  <span>View All Pricing Cards</span>
                 </Link>
               </div>
             </div>

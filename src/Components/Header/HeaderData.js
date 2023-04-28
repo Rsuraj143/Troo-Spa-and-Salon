@@ -61,7 +61,7 @@ export const HeaderData = [
       },
 
       {
-        subTitle: "FAQ's",
+        subTitle: "FAQ",
         heading: "Questions and Answers",
         path: "/Home/FAQ",
       },

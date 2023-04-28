@@ -44,9 +44,15 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 .active a {
   color: #e27394 !important;
 }
+.nav-link.test button:hover{
+  color: #e27394 !important;
+}
+li.active .nav-link.test button{
+  color: #e27394 !important;
+}
 ul.dropdown-menu {
   top: 67px !important;
-}
+} 
 a.dropdown-item {
   font-family: "Poppins";
   font-style: normal;
@@ -173,6 +179,7 @@ section#troo-da-header-section {
   top: 0px;
   width: 100%;
   padding: 20px 98px 20px 98px;
+  box-shadow: 0px 8px 15px rgba(149,157,165,0.1);
 }
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   padding: 0;

@@ -25,14 +25,12 @@ const HeroComponent = () => {
             </div>
             <div class="troo-btn">
               <div class="make-btn">
-                {" "}
-                <Link href="#" class="btn btn-lg">
-                  {" "}
+                <Link to="/Home/Make_An_Appointment" class="btn btn-lg">
                   <span>Make An Appointment</span>
                 </Link>
               </div>
               <div class="view-services">
-                <Link href="#" class="btn">
+                <Link to="/Home/Our_Services" class="btn">
                   View Our Services
                 </Link>
               </div>

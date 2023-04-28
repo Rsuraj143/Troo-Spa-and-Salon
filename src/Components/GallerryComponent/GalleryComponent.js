@@ -38,7 +38,7 @@ const GalleryComponent = () => {
                 <img src={gallery3} alt='gallery3' />
               </div>
               <div class="gallery-text">
-                <h4>Want see more photos? <Link href="#">Click here</Link></h4>
+                <h4>Want see more photos? <Link to="/Home/Gallery">Click here</Link></h4>
               </div>
             </div>
           </div>

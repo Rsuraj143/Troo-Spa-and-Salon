@@ -213,9 +213,9 @@ section#troo-da-map-section {
 
 /* Appointment page */
 
-.make-an-appointment ol.breadcrumb {
+/* .make-an-appointment ol.breadcrumb {
   max-width: 301px;
-}
+} */
 .make-an-appointment .contact-form {
   background: #fff;
   padding: 80px 70px;
