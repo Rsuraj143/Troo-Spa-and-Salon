@@ -145,3 +145,76 @@ section#troo-da-welcome-section {
     opacity: 0;
   }
 }
+
+@media (max-width: 1800px) {
+  .welcome-img:after {
+    width: 698px;
+    left: 0;
+  }
+}
+@media (max-width: 1500px) {
+  .welcome-img img {
+    margin-left: 0;
+  }
+  .welcome-call {
+    left: 0;
+  }
+}
+@media (max-width: 1400px) {
+  .welcome-img:after {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+  }
+  .welcome-call {
+    flex-wrap: wrap;
+    left: 0;
+  }
+  .wel-cll-text h3 {
+    font-size: 28px;
+    line-height: 43px;
+  }
+  .wel-cll-text {
+    padding-left: 81px;
+  }
+}
+@media (max-width: 1199px) {
+  .welcome-img:after {
+    background-size: contain;
+    width: 550px;
+  }
+}
+
+@media (max-width: 991px) {
+  .welcome-img img {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .wel-cll-text h3 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .wel-cll-text {
+    padding-left: 73px;
+  }
+  .welcome-img:after {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .welcome-call {
+    padding-left: 20px;
+    left: 0;
+    flex-wrap: wrap;
+  }
+  .icon-cll {
+    display: none;
+  }
+  .wel-cll-text h3 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .wel-cll-text {
+    padding-left: 0px;
+  }
+}

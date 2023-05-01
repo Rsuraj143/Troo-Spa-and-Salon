@@ -55,3 +55,18 @@
 .error-txt {
   text-align: center;
 }
+
+@media (max-width: 767px) {
+  .err-tile strong {
+    margin: 0 0 0 -32px;
+  }
+  .err-tile {
+    font-size: 130px;
+  }
+  .error-txt p {
+    padding: 0 20px;
+  }
+  .error-section {
+    padding: 80px 0;
+  }
+}

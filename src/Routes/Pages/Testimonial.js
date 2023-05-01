@@ -6,8 +6,10 @@ import ReViewComponent2 from "../../Components/ReviewComponent/ReViewComponent2"
 import WorkComponent from "../../Components/WorkComponent/WorkComponent";
 import WorkListComponent from "../../Components/WorkComponent/WorkListComponent";
 import GalleryComponent from "../../Components/GallerryComponent/GalleryComponent";
+import useDocumentTitle from "../../PageTitle";
 
 const Testimonial = () => {
+  useDocumentTitle("TRoo Spa | Testimonial ")
   return (
     <div class="testimonial">
       <Header />

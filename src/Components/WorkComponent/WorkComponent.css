@@ -121,3 +121,35 @@ section.how-work-list {
   opacity: 1;
 }
 
+@media (max-width: 1400px) {
+  .how-list-text p {
+    text-align: center;
+    padding: 0 0px;
+  }
+  .arrow-col img {
+    max-width: 136px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1199px) {
+  .blog-text h4 br {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .troo-tile h2 br {
+    display: none;
+  }
+  .how-list-text p {
+    text-align: center;
+    padding: 0 0px;
+  }
+  .arrow-col {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .how-cc:after{display: none;}
+}

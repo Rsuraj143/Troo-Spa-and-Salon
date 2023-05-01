@@ -6,8 +6,10 @@ import TeamComponent2 from "../../Components/TeamComponent/TeamComponent2";
 import WorkComponent from "../../Components/WorkComponent/WorkComponent";
 import WorkListComponent from "../../Components/WorkComponent/WorkListComponent";
 import GalleryComponent from "../../Components/GallerryComponent/GalleryComponent";
+import useDocumentTitle from "../../PageTitle";
 
 const Team = () => {
+  useDocumentTitle("TRoo Spa | Team's ")
   return (
     <div class="team">
       <Header />

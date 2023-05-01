@@ -3,7 +3,7 @@ section#troo-da-services-section {
   padding-top: 113px;
   padding-bottom: 120px;
 }
-.troo-da-services-section a{
+.troo-da-services-section a {
   text-decoration: none;
 }
 section#troo-da-services-section .troo-tile {
@@ -61,4 +61,24 @@ section#troo-da-services-section .troo-tile {
 section#troo-da-services-section .make-btn {
   text-align: center;
   margin-top: 20px;
+}
+
+@media (max-width: 1400px) {
+  .services-img img {
+    width: 100%;
+  }
+  .services-text h4 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .services-img img {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  section#troo-da-services-section {
+    padding-top: 50px;
+  }
 }

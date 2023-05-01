@@ -147,3 +147,65 @@ section#troo-da-review-section:after {
   left: -8px;
   padding: 0 !important;
 }
+
+@media (max-width: 1800px) {
+  .reviwe-elipes {
+    left: 0;
+    padding-left: 13px;
+    padding-right: 67px;
+  }
+  .reviwe-elipes:after {
+    top: -101px;
+    left: -74px;
+    width: 592px;
+    height: 598px;
+    z-index: -9;
+  }
+}
+
+@media (max-width: 1400px) {
+  .reviwe-elipes:after {
+    top: -111px;
+    left: -55px;
+    width: 508px;
+    height: 597px;
+    z-index: -9;
+  }
+  .reviwe-elipes {
+    left: 0;
+    padding: 0 31px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .reviwe-elipes:after {
+    display: none;
+  }
+  .reviwe-elipes {
+    left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .reviwe-elipes {
+    position: relative;
+    padding: 26px 0 79px 0px;
+    left: 0;
+  }
+  .reviwe-elipes h2 {
+    margin-bottom: 11px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .review-ss {
+    max-width: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial .review-ss {
+    max-width: inherit;
+    margin-top: 30px;
+  }
+}

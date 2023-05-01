@@ -15,8 +15,11 @@ import WorkComponent from '../Components/WorkComponent/WorkComponent'
 import WorkListComponent from '../Components/WorkComponent/WorkListComponent'
 import GalleryComponent from '../Components/GallerryComponent/GalleryComponent'
 import BlogComponent from '../Components/BlogComponent/BlogComponent'
+import useDocumentTitle from '../PageTitle'
+
 
 const Home = () => {
+ useDocumentTitle("TRoo Spa | Home ")
   return (
     <div>
         <Header/>

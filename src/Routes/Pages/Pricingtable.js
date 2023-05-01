@@ -6,8 +6,10 @@ import PricingComponent from "../../Components/PricingComponent/PricingComponent
 import WorkComponent from "../../Components/WorkComponent/WorkComponent";
 import WorkListComponent from "../../Components/WorkComponent/WorkListComponent";
 import GalleryComponent from "../../Components/GallerryComponent/GalleryComponent";
+import useDocumentTitle from "../../PageTitle";
 
 const Pricingtable = () => {
+  useDocumentTitle("TRoo Spa | Pricing Table ")
   return (
     <div class="pricing">
       <Header />

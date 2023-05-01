@@ -5,6 +5,7 @@ import { ServiceData } from "../ServiceComponent/ServiceData";
 import { TeamData } from "../TeamComponent/TeamData";
 import { HeaderData } from "../Header/HeaderData";
 import { BlogData } from "../BlogComponent/BlogData";
+import { WorkData } from "../WorkComponent/WorkData";
 
 const HeroGlobal = () => {
   const [heading, setHeading] = useState();
@@ -27,6 +28,10 @@ const HeroGlobal = () => {
       if(pathName.includes("Blog_Details")){
         const bData = BlogData.find((e)=>e.id == id)
         setHeading(bData.name)
+      }
+      if(pathName.includes("Work_Details")){
+        const wData = WorkData.find((e)=>e.id == id)
+        setHeading(wData.name)
       }
     }
     else {

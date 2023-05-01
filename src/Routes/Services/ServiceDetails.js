@@ -7,8 +7,10 @@ import TeamComponent from "../../Components/TeamComponent/TeamComponent";
 import WorkComponent from "../../Components/WorkComponent/WorkComponent";
 import WorkListComponent from "../../Components/WorkComponent/WorkListComponent";
 import GalleryComponent from "../../Components/GallerryComponent/GalleryComponent";
+import useDocumentTitle from "../../PageTitle";
 
 const ServiceDetails = () => {
+  useDocumentTitle("TRoo Spa | Service Details ")
   return (
     <div class="services-detail detail-pages">
       <Header />

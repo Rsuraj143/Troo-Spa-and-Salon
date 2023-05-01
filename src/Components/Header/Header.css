@@ -32,27 +32,27 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   color: #232323;
   padding: 0 22px;
 }
-.navbar-expand-lg .navbar-nav .nav-link{
-    padding: 0 0 !important;
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 0 !important;
 }
 .nav-link.test.dropdown {
-    padding: 0 22px;
-  }
+  padding: 0 22px;
+}
 .header section#troo-da-header-section a.nav-link:hover {
   color: #e27394;
 }
 .active a {
   color: #e27394 !important;
 }
-.nav-link.test button:hover{
+.nav-link.test button:hover {
   color: #e27394 !important;
 }
-li.active .nav-link.test button{
+li.active .nav-link.test button {
   color: #e27394 !important;
 }
 ul.dropdown-menu {
   top: 67px !important;
-} 
+}
 a.dropdown-item {
   font-family: "Poppins";
   font-style: normal;
@@ -92,7 +92,7 @@ li.nav-item {
   padding: 63px 0 0 0;
 }
 .header .make-btn {
-    margin-left: 58px;
+  margin-left: 58px;
 }
 .socail-icon h4 {
   text-transform: uppercase;
@@ -160,7 +160,7 @@ li.nav-item {
 .offcanvas-body {
   padding: 6px 38px;
 }
-.offcanvas-header button.btn-close{
+.offcanvas-header button.btn-close {
   position: absolute;
   right: 39px;
   top: 23px;
@@ -179,7 +179,7 @@ section#troo-da-header-section {
   top: 0px;
   width: 100%;
   padding: 20px 98px 20px 98px;
-  box-shadow: 0px 8px 15px rgba(149,157,165,0.1);
+  box-shadow: 0px 8px 15px rgba(149, 157, 165, 0.1);
 }
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   padding: 0;
@@ -202,4 +202,170 @@ ul.navbar-nav {
 }
 .navbar-expand-lg .navbar-collapse {
   justify-content: center;
+}
+button.hum-btn:hover {
+  background-color: #e27394;
+}
+
+@media (max-width: 1900px) {
+  section#troo-da-header-section {
+    padding: 10px 30px;
+  }
+  .socail-icons ul {
+    display: flex;
+  }
+  a.navbar-brand img {
+    width: 100%;
+  }
+  .header section#troo-da-header-section a.nav-link {
+    padding: 0 9px;
+  }
+  ul.navbar-nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .header .make-btn .btn {
+    padding: 10px 14px !important;
+  }
+  .header .make-btn {
+    margin-left: 20px;
+  }
+  button.hum-btn {
+    right: 13px;
+    top: 23px;
+  }
+  .header section#troo-da-header-section a.nav-link {
+    padding: 0 10px !important;
+  }
+  .nav-link.test button.btn.btn-primary {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 1500px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .header section#troo-da-header-section a.nav-link {
+    padding: 0 6px;
+    font-size: 14px;
+  }
+  .header .make-btn .btn {
+    padding: 10px 11px !important;
+    font-size: 13px !important;
+  }
+  a.navbar-brand img {
+    width: 100%;
+    max-width: 153px;
+  }
+}
+
+@media (max-width: 1199px) {
+  section#troo-da-header-section {
+    padding: 0 30px;
+  }
+  a.navbar-brand img {
+    max-width: 154px;
+  }
+  .header section#troo-da-header-section a.nav-link {
+    padding: 18px 9px;
+    font-size: 14px;
+  }
+  .socail-icons ul {
+    display: flex;
+  }
+  .header .make-btn {
+    margin-left: 59;
+  }
+  .header .make-btn .btn {
+    font-size: 14px !important;
+    line-height: 21px !important;
+    padding: 11px 17px !important;
+  }
+  button.hum-btn {
+    display: none;
+  }
+  .socail-icons {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .header .make-btn .btn {
+    font-size: 13px !important;
+    line-height: 21px !important;
+    padding: 11px 9px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    padding: 0 20px;
+  }
+  a.navbar-brand img {
+    max-width: 200px;
+  }
+  .active a {
+    color: #3e1f5c !important;
+  }
+  a.navbar-brand {
+    margin: 0;
+    padding: 11px 0px;
+  }
+  section#troo-da-header-section {
+    padding: 0px 0px;
+    height: 75px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../../Images/humberger-Menu.png) !important;
+  }
+  button.navbar-toggler {
+    border: none;
+    padding: 0;
+    margin-right: 0px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+  ul.navbar-nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  button.hum-btn {
+    display: none;
+  }
+ .header section#troo-da-header-section a.nav-link {
+    padding: 8px 1px;
+    opacity: 1;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: #e27394;
+    padding-left: 17px;
+    margin: 10px 10px;
+    padding-top: 16px;
+    border: 2px solid #fff;
+  }
+  .socail-icons {
+    padding: 25px 0;
+  }
+  header .make-btn {
+    margin-left: 0;
+    padding: 0 0 37px 0;
+  }
+  .header section#troo-da-header-section a.nav-link {
+    color: #fff;
+  }
+  li.nav-item.active:after {
+    display: none;
+  }
+  li.nav-item:after {
+    display: none;
+  }
 }

@@ -114,3 +114,11 @@ input#gridCheck {
   border: 1px solid rgba(226, 115, 146, 0.5) !important;
   border-radius: 5px;
 }
+
+@media (max-width: 767px) {
+  .blogs-detail.detail-pages .ser-bttom-img {
+    margin-bottom: 30px;
+
+  }
+  .commet-from.contact-form { border: none; padding: 0 0 42px 0;}
+}

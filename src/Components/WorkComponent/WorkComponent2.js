@@ -1,6 +1,7 @@
 import React from "react";
 import "./workCards.css";
 import { WorkData } from "./WorkData";
+import { Link, createSearchParams } from "react-router-dom";
 
 const WorkComponent2 = () => {
   return (
@@ -9,6 +10,7 @@ const WorkComponent2 = () => {
         <div class="row">
           {WorkData.slice(0, 3).map((e, i) => (
             <div class="col-md-4" key={i}>
+              <Link to={`/Home/Our_Works/Work_Details?${createSearchParams({id : e.id})}`}>
               <div class="work-col">
                 <img src={e.img} alt="work1" />
                 <div class="work-text">
@@ -19,12 +21,14 @@ const WorkComponent2 = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
         </div>
         <div class="row">
           {WorkData.slice(3, 6).map((e, i) => (
             <div class="col-md-4" key={i}>
+              <Link to={`/Home/Our_Works/Work_Details?${createSearchParams({id : e.id})}`}>
               <div class="work-col">
                 <img src={e.img} alt="work1" />
                 <div class="work-text">
@@ -35,13 +39,15 @@ const WorkComponent2 = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
         </div>
         <div class="row">
           {WorkData.slice(6, 9).map((e, i) => (
             <div class="col-md-4" key={i}>
-              <div class="work-col">
+             <Link to={`/Home/Our_Works/Work_Details?${createSearchParams({id : e.id})}`}>
+             <div class="work-col">
                 <img src={e.img} alt="work1" />
                 <div class="work-text">
                   <p>{e.title} </p>
@@ -51,6 +57,7 @@ const WorkComponent2 = () => {
                   </div>
                 </div>
               </div>
+             </Link>
             </div>
           ))}
         </div>

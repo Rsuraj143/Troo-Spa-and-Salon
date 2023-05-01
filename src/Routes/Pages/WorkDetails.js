@@ -5,8 +5,10 @@ import Footer from '../../Components/Footer/Footer'
 
 import WorkComponent3 from '../../Components/WorkComponent/WorkComponent3'
 import WorkDetailsComponent from '../../Components/WorkComponent/WorkDetailsComponent'
+import useDocumentTitle from '../../PageTitle'
 
 const WorkDetails = () => {
+  useDocumentTitle("TRoo Spa | Work Details ")
   return (
     <div>
       <Header/>

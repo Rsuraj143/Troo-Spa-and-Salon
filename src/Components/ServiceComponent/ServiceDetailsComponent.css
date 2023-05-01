@@ -185,3 +185,89 @@ section#troo-da-services-details-section {
   position: relative;
   z-index: 9;
 }
+
+@media (max-width: 1400px) {
+  .ser-bttom-img img {
+    width: 100%;
+  }
+  .ser-img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .offer-section {
+    padding: 26px 18px;
+    margin-bottom: -77px;
+    width: 301px;
+    background-size: cover;
+  }
+  .offer-section span {
+    font-size: 24px;
+    padding: 6px 12px;
+  }
+  .book-ss:after {
+    width: 301px;
+  }
+  .therapy-detail h4 {
+    font-size: 20px;
+  }
+  .therapy-detail {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  section#troo-da-services-details-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .ser-bttom-img img {
+    width: 100%;
+  }
+  .ser-img img {
+    width: 100%;
+  }
+  .provied-ss {
+    padding-left: 13px;
+    padding-right: 14px;
+  }
+  .offer-section {
+    width: 227px;
+  }
+  .book-ss:after {
+    width: 227px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer-section {
+    padding: 26px 18px;
+    margin-bottom: -77px;
+    width: 100%;
+    background-size: cover;
+  }
+  .offer-section span {
+    font-size: 33px;
+    padding: 6px 12px;
+  }
+  .book-ss:after {
+    display: none;
+  }
+  .offer-section p {
+    padding-bottom: 26px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .book-ss h4 {
+    font-size: 20px;
+  }
+
+  .book-ss:before {
+    display: none;
+  }
+}

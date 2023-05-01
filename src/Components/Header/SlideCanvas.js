@@ -15,7 +15,7 @@ const SlideCanvas = () => {
     const handleShow = () => setShow(true);
 
   return (
-    <div>
+    <>
         <Button onClick={handleShow} className="hum-btn">
           <img src={humburger} alt="humburger" />
         </Button>
@@ -59,7 +59,7 @@ const SlideCanvas = () => {
             </div>
           </Offcanvas.Body>
         </Offcanvas>
-    </div>
+    </>
   )
 }
 

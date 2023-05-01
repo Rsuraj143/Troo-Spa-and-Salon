@@ -68,3 +68,42 @@ section.coming-soon-seciton {
 .coming-img img {
   width: 100%;
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .coming-txt {
+    padding: 30px 20px 33px 20px;
+  }
+  .com-tle {
+    font-size: 42px;
+    line-height: 44px;
+  }
+  .coming-txt .search-container button {
+    padding: 18px 15px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .coming-txt {
+    padding: 30px 20px 33px 20px;
+  }
+  .com-tle {
+    font-size: 42px;
+    line-height: 44px;
+  }
+  .coming-txt .search-container button {
+    padding: 18px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.coming-soon-seciton {
+    flex-wrap: wrap;
+  }
+  .coming-txt {
+    padding: 30px 20px 33px 20px;
+  }
+  .com-tle {
+    font-size: 42px;
+    line-height: 44px;
+  }
+}

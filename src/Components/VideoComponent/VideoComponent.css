@@ -67,3 +67,37 @@ section#troo-da-video-section .row {
   top: -10%;
   opacity: 0.2;
 }
+
+@media (max-width: 1400px) {
+  .video-text span {
+    font-size: 41px;
+    line-height: 56px;
+  }
+}
+
+@media (max-width: 991px) {
+  .video-text span {
+    font-size: 40px;
+    line-height: 58px;
+  }
+  .video-popu button {
+    padding: 10px 12px;
+    top: 0px;
+  }
+  #troo-da-video-section {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .video-text span {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  #troo-da-video-section {
+    padding-top: 50px;
+  }
+  .video-popu button {
+    padding: 10px 12px;
+    top: 49px;
+  }
+}

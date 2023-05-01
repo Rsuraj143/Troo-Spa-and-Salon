@@ -7,8 +7,10 @@ import VideoComponent from '../../Components/VideoComponent/VideoComponent'
 import CounterComponent from '../../Components/CounterComponent/CounterComponent'
 import ReviewComponent from '../../Components/ReviewComponent/ReviewComponent'
 import TeamComponent from '../../Components/TeamComponent/TeamComponent'
+import useDocumentTitle from '../../PageTitle'
 
 const FAQs = () => {
+  useDocumentTitle("TRoo Spa | FAQs ")
   return (
     <div>
       <Header/>

@@ -9,8 +9,10 @@ import ReviewComponent from '../Components/ReviewComponent/ReviewComponent'
 import HighlightComponent from '../Components/HighlightComponent/HighlightComponent'
 import TeamComponent from '../Components/TeamComponent/TeamComponent'
 import GalleryComponent from '../Components/GallerryComponent/GalleryComponent'
+import useDocumentTitle from '../PageTitle'
 
 const About = () => {
+  useDocumentTitle("TRoo Spa | About ")
   return (
     <div class="about">
         <Header/>

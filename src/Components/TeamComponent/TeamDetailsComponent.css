@@ -117,3 +117,33 @@
 section#troo-da-team-detail-section {
   padding-top: 100px;
 }
+
+@media (max-width: 1400px) {
+  .team-member img {
+    width: 100%;
+  }
+  .teams-details {
+    padding-left: 0;
+  }
+  .team-member-details {
+    position: relative;
+    left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .team-member-details {
+    padding-bottom: 34px;
+    padding-right: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0%;
+    padding-left: 10px;
+  }
+  .img-team-call img {width: auto;}
+  .tema-link-call a{font-size: 16px;}
+}
+@media (max-width: 767px) {
+  .teams-details { padding-top: 50px;padding-left: 0;} 
+}

@@ -213,13 +213,48 @@ section#troo-da-map-section {
 
 /* Appointment page */
 
-/* .make-an-appointment ol.breadcrumb {
-  max-width: 301px;
-} */
 .make-an-appointment .contact-form {
   background: #fff;
   padding: 80px 70px;
 }
 .make-an-appointment .troo-contact {
   background: rgb(62 31 92 / 5%);
+}
+
+@media (max-width: 1199px) {
+  .troo-contact {
+    padding: 10px;
+  }
+  .contact-ss {
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    display: block;
+  }
+  .contact-deials {
+    padding-left: 0;
+  }
+  .contact-deials h5 {
+    text-align: center;
+  }
+  .contcat-img {
+    display: block;
+    margin: 0 auto;
+  }
+  .conatct-col {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .troo-contact {padding: 10px;}
+
+}
+@media(max-width:767px) {
+  .make-an-appointment .contact-form {
+    background: #fff;
+    padding: 30px 20px;
+}
+
 }

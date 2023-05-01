@@ -32,15 +32,13 @@ section#troo-da-hero-section {
   padding-bottom: 245px;
 }
 
-
-
 /* Hero Global */
 #troo-da-sub-page-section {
   background-image: url(../../Images/sub-page-bg.png);
   padding: 223px 0 82px 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #3E1F5C;
+  background-color: #3e1f5c;
 }
 ol.breadcrumb {
   justify-content: space-around;
@@ -48,7 +46,7 @@ ol.breadcrumb {
   margin: 0 auto;
   border-radius: 0px;
   width: fit-content;
-    padding: 7px 10px;
+  padding: 7px 10px;
 }
 li.breadcrumb-item {
   position: relative;
@@ -59,31 +57,66 @@ li.breadcrumb-item a {
   text-decoration: none;
 }
 li.breadcrumb-item.active {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #E27394 !important;
+  color: #e27394 !important;
 }
-.breadcrumb-item+.breadcrumb-item::before {
-  background: #E27394 !important;
-    content: " " !important;
-    padding: 0;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    float: none !important;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    display: block;
-    padding: 0 !important;
-    transform: translateY(-50%);
+.breadcrumb-item + .breadcrumb-item::before {
+  background: #e27394 !important;
+  content: " " !important;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  float: none !important;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: block;
+  padding: 0 !important;
+  transform: translateY(-50%);
 }
 .sub-page-text h2 {
   color: #fff;
   font-size: 36px;
   text-align: center;
   margin-top: 18px;
+}
+
+@media (max-width: 1199px) {
+  .banner-text p br {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 0 30px !important;
+    max-width: inherit !important;
+  }
+  .banner-text {
+    padding: 253px 0 0px 0;
+  }
+  .troo-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 65px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  #troo-da-hero-section {
+    padding-top: 224px;
+    padding-bottom: 62px;
+  }
+  .banner-text {
+    padding: 30px 0 0 0;
+  }
+  .troo-btn {
+    padding-bottom: 12px;
+  }
 }

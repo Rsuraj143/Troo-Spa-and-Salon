@@ -89,3 +89,139 @@ section#troo-da-why-choose-section {
   margin-bottom: 16px;
   display: block;
 }
+
+@media (max-width: 1900px) {
+  .why-choose-text {
+    position: relative;
+    padding-left: 171px;
+    padding-bottom: 72px;
+    padding-top: 65px;
+  }
+  /* .why-choose-img:after {
+    height: 962px;
+  } */
+  .why-choose-text:after {
+    right: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .why-choose-img:after {
+    min-width: 538px;
+    top: 0;
+    left: -58%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .why-choose-text ul li {
+    padding-top: 37px;
+  }
+  .why-choose-img {
+    display: none;
+  }
+  section#troo-da-why-choose-section .col-md-7 {
+    width: 100%;
+    padding-left: 103px;
+  }
+  .why-choose-text:after {
+    background-color: #3e1f5c;
+    background-image: url(../../Images/reshot-icon-spa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -9;
+    min-width: 696px;
+    left: 4px;
+    min-height: 998px;
+    top: 10px;
+  }
+  .why-choose-text {
+    position: relative;
+    padding-left: 66px;
+    padding-top: 67px;
+    padding-bottom: 106px;
+    padding-right: 0px;
+    left: -16%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .why-choose-img:after {
+    top: -11px;
+  }
+  .why-choose-text {
+    padding-top: 68px;
+    padding-bottom: 94px;
+  }
+  .chose-list-text {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .why-choose-img {
+    display: block;
+    position: relative;
+    padding-top: 11px;
+    top: 38px;
+  }
+  section#troo-da-why-choose-section .col-md-7 {
+    padding-left: 40px;
+  }
+  .why-choose-text:after {
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -9;
+    min-width: inherit;
+    left: 0px;
+    min-height: 998px;
+  }
+  .why-choose-img:after {
+    min-width: inherit;
+    background-image: url(../../Images/property-cosy.png);
+    height: 300px;
+    top: 0;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .why-choose-text {
+    position: relative;
+    padding-left: 18px;
+    padding-top: 47%;
+    padding-bottom: 34px;
+    padding-right: 33px;
+    left: 0;
+  }
+  .why-choose-text p {
+    padding: 0;
+  }
+  .why-choose-text ul li {
+    display: flex;
+    padding-top: 40px;
+    cursor: pointer;
+    flex-wrap: wrap;
+  }
+  .chose-list-text {
+    padding-left: 0;
+  }
+  section#troo-da-why-choose-section .col-md-5 {
+    width: 100%;
+  }
+  section#troo-da-why-choose-section .col-md-7 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .why-choose-img {
+    position: relative;
+    padding-top: 11px;
+    top: 38px;
+  }
+  .why-choose-text {
+    padding-left: 25px;
+    padding-top: 354px;
+    padding-bottom: 124px;
+    padding-right: 33px;
+  }
+}

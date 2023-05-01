@@ -61,3 +61,7 @@ section#troo-da-gallery-section {
   overflow: hidden;
   border-radius: 5px;
 }
+
+@media (max-width: 767px) {
+  .gallery-text {padding-bottom: 30px;}
+}

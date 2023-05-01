@@ -116,3 +116,11 @@ section#troo-da-faq-section .troo-tile {
   text-align: center;
   padding-top: 53px;
 }
+
+
+@media (max-width: 1600px) {
+  section#troo-da-faq-section:after{
+    width: 500px;
+    height: 500px;
+  }
+}

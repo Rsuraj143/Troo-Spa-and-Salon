@@ -106,4 +106,33 @@ section#troo-da-team-section .make-btn {
   text-align: center;
 }
 
-.team .team-col{margin-bottom: 144px;}
+.team .team-col {
+  margin-bottom: 144px;
+}
+
+@media (max-width: 1199px) {
+  .team-dails {
+    bottom: -97px;
+    padding-top: 68px;
+  }
+  .team-img img {
+    width: 100%;
+    max-width: 195px;
+  }
+  section#troo-da-team-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .team-col {
+    margin-bottom: 41%;
+  }
+}
+@media (max-width: 767px) {
+  .team-img img {
+    width: 100%;
+    max-width: 306px;
+  }
+}

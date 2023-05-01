@@ -73,3 +73,39 @@ section#troo-da-our-work-section {
   text-align: center;
   padding-bottom: 30px;
 }
+
+@media (max-width: 1400px) {
+  .work-text {
+    bottom: 16px;
+    width: 100%;
+    left: 11px;
+    padding-left: 28px;
+    max-width: 333px;
+    padding-bottom: 0;
+    margin: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .work-text {
+    position: relative;
+    bottom: 34px;
+    width: 100%;
+    left: 0;
+    padding-left: 28px;
+    max-width: 365px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+  }
+  .arrow-im {
+    opacity: 1;
+    margin-top: -8px;
+  }
+  .work-text h5 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .work-text { 
+    max-width: 100%;
+  }
+}

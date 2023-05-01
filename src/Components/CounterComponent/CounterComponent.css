@@ -9,7 +9,7 @@
   padding-left: 70px;
   padding-right: 70px;
 }
-.conter-tx .counter span{
+.conter-tx .counter span {
   transition: 0.5s;
   font-family: "Playfair Display";
   font-style: normal;
@@ -56,4 +56,47 @@
 }
 .counter-box:hover:after {
   opacity: 1;
+}
+
+@media (max-width: 1400px) {
+  .conter-tx .counter span {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .conter-tx strong {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .counter-box {
+    display: block;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .conter-icon {
+    padding-right: 0;
+  }
+  .conter-tx .counter span {
+    font-size: 40px;
+    line-height: 38px;
+  }
+  .conter-tx strong {
+    font-size: 40px;
+    line-height: 38px;
+  }
+  .counder-section {
+    margin: -224px 15px 0 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .counter-box:after {
+    display: none;
+  }
 }
