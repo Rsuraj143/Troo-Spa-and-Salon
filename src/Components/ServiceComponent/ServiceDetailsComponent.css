@@ -193,6 +193,9 @@ section#troo-da-services-details-section {
   .ser-img img {
     width: 100%;
   }
+  section#troo-da-services-details-section{
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 1199px) {

@@ -6,14 +6,14 @@ const HighlightComponent = () => {
     <section class="troo-da-why-choose-section" id="troo-da-why-choose-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-6 highlight_left">
           <div class="why-choose-img"></div>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-6 ">
           <div class="why-choose-text">
             <div class="troo-tile">
               <span>People why choose us again and again</span>
-              <h2>Reason we are the best in
+              <h2>The Reason we are the best in 
                 this business sinse 30+ years</h2>
             </div>
             <p>It is a long established fact that it is also reader we arewill be distracted by the readable content of

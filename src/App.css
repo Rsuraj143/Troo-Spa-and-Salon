@@ -121,7 +121,7 @@ body h5 {
   top: 0;
   right: 0;
 }
-header .make-btn {
+.header .make-btn {
   margin-left: 58px;
 }
 
@@ -171,6 +171,12 @@ header .make-btn {
   margin-left: 58px;
 }
 
+@media (max-width: 1800px) {
+  body .troo-da-faq-section{
+    overflow: hidden;
+  }
+}
+
 @media (max-width: 1400px) {
   body h2 {
     font-size: 35px;
@@ -216,7 +222,7 @@ header .make-btn {
   .header {
     position: relative;
     top: 0px;
-    z-index: 9;
+    z-index: 999;
   }
   .view-services {
     margin-left: 29px;
@@ -237,5 +243,8 @@ header .make-btn {
     font-size: 20px;
     line-height: 30px;
   }
-  .view-services {margin-left: 0;margin-top: 35px; }
+  .view-services {
+    margin-left: 0;
+    margin-top: 35px;
+  }
 }

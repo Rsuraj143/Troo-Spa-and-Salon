@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./VideoComponent.css";
-import videoIcon from "../../Images/video-icon.png"
+import videoIcon from "../../Images/video-icon.png";
+import { IoCloseOutline } from "react-icons/io5";
 
 const VideoComponent = () => {
+  const [modal, setModal] = useState(false);
+  const openModal = () => {
+    if (!modal) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+    setModal(!modal);
+  };
+
   return (
     <section class="troo-da-video-section" id="troo-da-video-section">
       <div class="container">
@@ -16,34 +27,33 @@ const VideoComponent = () => {
           </div>
           <div class="col-md-6">
             <div class="video-popu">
-              <button
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
+              <button onClick={openModal}>
                 <img src={videoIcon} alt="videoIcon" />
-              </button>
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
+                {modal ? (
+                  <section className="modal__bg">
+                    <div className="modal__align">
+                      <div className="modal__content" modal={modal}>
+                        <IoCloseOutline
+                          className="modal__close"
+                          arial-label="Close modal"
+                          onClick={setModal}
+                        />
+                        <div className="modal__video-align">
+                          <iframe
+                            width="560"
+                            height="500"
+                            src="https://www.youtube.com/embed/DUfXdcpEfMs"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
                     </div>
-                    <div class="modal-body">...</div>
-                  </div>
-                </div>
-              </div>
+                  </section>
+                ) : null}
+              </button>
             </div>
           </div>
         </div>

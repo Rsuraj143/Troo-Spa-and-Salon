@@ -23,11 +23,11 @@ const Footer = () => {
                 <div class="col-md-8">
                   <div class="footer-link">
                     <ul>
-                      <li><Link href="#">Home</Link></li>
-                      <li><Link href="#">About Us</Link></li>
-                      <li><Link href="#">Our Services</Link></li>
-                      <li><Link href="#">Our Blogs</Link></li>
-                      <li><Link href="#">Contact Us</Link></li>
+                      <li><Link to="/Home">Home</Link></li>
+                      <li><Link to="/Home/About_Us">About Us</Link></li>
+                      <li><Link to="/Home/Our_Services">Our Services</Link></li>
+                      <li><Link to="/Home/Blogs">Our Blogs</Link></li>
+                      <li><Link to="/Home/Contact_Us">Contact Us</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -42,9 +42,9 @@ const Footer = () => {
                 industry's standard.</p>
               <div class="socail-icons">
                 <ul>
-                  <li><Link href="#"><img src={facebook} alt='facebook' /></Link></li>
-                  <li><Link href="#"><img src={tweeter} alt='tweeter' /></Link></li>
-                  <li><Link href="#"><img src={instagram} alt='instagram' /></Link></li>
+                  <li><Link to="#"><img src={facebook} alt='facebook' /></Link></li>
+                  <li><Link to="#"><img src={tweeter} alt='tweeter' /></Link></li>
+                  <li><Link to="#"><img src={instagram} alt='instagram' /></Link></li>
                 </ul>
               </div>
             </div>
@@ -88,8 +88,8 @@ const Footer = () => {
           <div class="col-md-8">
             <div class="botm-text">
               <ul>
-                <li><Link href="#">Terms & Conditions</Link></li>
-                <li><Link href="#">Privacy Policy</Link></li>
+                <li><Link to="#">Terms & Conditions</Link></li>
+                <li><Link to="#">Privacy Policy</Link></li>
               </ul>
             </div>
           </div>

@@ -40,7 +40,7 @@
   border-radius: 5px;
   width: 100%;
   padding-left: 0px;
-  margin-left: 78px;
+  
 }
 section#troo-da-welcome-section {
   background-image: url(../../Images/BG.png);
@@ -51,16 +51,20 @@ section#troo-da-welcome-section {
 .welcome-img {
   position: relative;
 }
-.welcome-img:after {
+#troo-da-welcome-section .col-md-6.womenSkin{
+  position: relative;
+  padding: 0 50px;
+}
+.womenSkin:after {
   background-image: url(../../Images/reshot-icon.png);
   position: absolute;
   content: "";
-  left: -7px;
-  z-index: 1;
-  width: 814px;
-  height: 814px;
-  top: -90px;
+  left: 0;
+  top: -50px;
+  width: 100%;
+  height: 100%;
   z-index: -1;
+  background-size: cover
 }
 .welcome-call {
   background: #3e1f5c;
@@ -73,7 +77,6 @@ section#troo-da-welcome-section {
   justify-content: space-around;
   padding-top: 37px;
   padding-bottom: 37px;
-  left: 80px;
   top: 30px;
 }
 .icon-cll img {
@@ -181,11 +184,13 @@ section#troo-da-welcome-section {
 @media (max-width: 1199px) {
   .welcome-img:after {
     background-size: contain;
-    width: 550px;
   }
 }
 
 @media (max-width: 991px) {
+  #troo-da-welcome-section .col-md-6.womenSkin{
+    padding: 0 20px;
+  }
   .welcome-img img {
     margin-left: 0;
     margin-top: 30px;

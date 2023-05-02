@@ -30,7 +30,7 @@ const AboutComponent = () => {
             <div class="make-btn"> <Link to="/Home/Contact_Us" class="btn btn-lg"> <span>Contact With US</span></Link></div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 womenSkin">
           <div class="welcome-img">
             <img src={womenSkin} alt='womenSkin' />
           </div>
