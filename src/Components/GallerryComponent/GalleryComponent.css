@@ -63,5 +63,11 @@ section#troo-da-gallery-section {
 }
 
 @media (max-width: 767px) {
-  .gallery-text {padding-bottom: 30px;}
+  .gallery-text {
+    padding-bottom: 30px;
+  }
+  section#troo-da-gallery-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }

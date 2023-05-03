@@ -18,96 +18,96 @@ import gallery19 from "../../Images/gallery-19.png";
 
 const GalleryComponent2 = () => {
   return (
-    <section class="troo-da-gallery-section" id="troo-da-gallery-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="troo-tile">
+    <section className="troo-da-gallery-section" id="troo-da-gallery-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="troo-tile">
               <span>Our Gallery</span>
               <h2>Let we see some pics for you</h2>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="gallery-col">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery5} alt="gallery5" />
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="gallery-col">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery6} alt="gallery6" />
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="gallery-col">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery7} alt="gallery7" />
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="gallery-col">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery8} alt="gallery8" />
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="gallery-col">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery9} alt="gallery9" />
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="gallery-col">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery10} alt="gallery10" />
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="gallery-col">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery11} alt="gallery11" />
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="gallery-col">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery12} alt="gallery12" />
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="gallery-col">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery13} alt="gallery13" />
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="gallery-col">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery14} alt="gallery14" />
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="gallery-col">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery15} alt="gallery15" />
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="gallery-col">
+          <div className="col-md-4">
+            <div className="gallery-col">
               <img src={gallery16} alt="gallery16" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="gallery-col">
+          <div className="row">
+            <div className="col-md-4">
+              <div className="gallery-col">
                 <img src={gallery17} alt="gallery17" />
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="gallery-col">
+            <div className="col-md-4">
+              <div className="gallery-col">
                 <img src={gallery18} alt="gallery18" />
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="gallery-col">
+            <div className="col-md-4">
+              <div className="gallery-col">
                 <img src={gallery19} alt="gallery19" />
               </div>
             </div>

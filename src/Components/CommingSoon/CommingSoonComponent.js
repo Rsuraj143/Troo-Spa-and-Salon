@@ -4,12 +4,12 @@ import women from "../../Images/woman-leg-relax.png"
 
 const CommingSoonComponent = () => {
   return (
-    <section class="coming-soon-seciton">
-        <div class="coming-txt">
+    <section className="coming-soon-seciton">
+        <div className="coming-txt">
             <span>Coming Soon!</span>
-            <div class="com-tle">Our new website is
+            <div className="com-tle">Our new website is
                 on its way.</div>
-            <div class="search-container">
+            <div className="search-container">
                 <strong>Get notified when we launch.</strong>
                 <form action="/action_page.php">
                     <input type="text" name="Email" placeholder="Enter Your Email" />
@@ -17,7 +17,7 @@ const CommingSoonComponent = () => {
                 </form>
             </div>
         </div>
-        <div class="coming-img">
+        <div className="coming-img">
             <img src={women} alt='women' />
         </div>
     </section>

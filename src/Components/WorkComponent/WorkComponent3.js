@@ -1,55 +1,39 @@
-import React from 'react'
-import arrow from "../../Images/white-arrow.png"
-import work1 from "../../Images/work-1.png"
-import work2 from "../../Images/work-2.png"
-import work3 from "../../Images/work-3.png"
+import React from "react";
+import { WorkData } from "./WorkData";
+import { Link, createSearchParams } from "react-router-dom";
 
 const WorkComponent3 = () => {
   return (
-    <section class="troo-da-our-work-section" id="troo-da-our-work-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="worl-ti">
-            <h2>Related Works</h2>
+    <section className="troo-da-our-work-section" id="troo-da-our-work-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="worl-ti">
+              <h2>Related Works</h2>
+            </div>
           </div>
+        </div>
+        <div className="row">
+          {WorkData.slice(0, 3).map((e, i) => (
+            <div className="col-md-4">
+              <Link to={`/Home/Our_Works/Work_Details?${createSearchParams({id : e.id})}`}>
+                <div className="work-col">
+                  <img src={e.img} alt="work1" />
+                  <div className="work-text">
+                    <p>{e.title}</p>
+                    <h5>{e.name} </h5>
+                    <div className="arrow-im">
+                      <img src={e.arrow} alt="arrow" />
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          ))}
         </div>
       </div>
-      <div class="row">
-      <div class="col-md-4">
-          <div class="work-col">
-            <img src={work1} alt='work1' />
-            <div class="work-text">
-              <p>Spa and Beauty</p>
-              <h5>Full body massage</h5>
-              <div class="arrow-im"><img src={arrow} alt='arrow' /></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-col">
-            <img src={work2} alt='work2' />
-            <div class="work-text">
-              <p>Spa and Beauty</p>
-              <h5>Head Massage</h5>
-              <div class="arrow-im"><img src={arrow} alt='arrow' /></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-col">
-            <img src={work3} alt='work3'  />
-            <div class="work-text">
-              <p>Wellness & Spa</p>
-              <h5>Aroma therapy</h5>
-              <div class="arrow-im"><img src={arrow} alt='arrow' /></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  )
-}
+    </section>
+  );
+};
 
-export default WorkComponent3
+export default WorkComponent3;

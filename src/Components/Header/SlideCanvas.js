@@ -38,7 +38,7 @@ const SlideCanvas = () => {
                 <li>
                   <img src={mailIcon} alt='mailIcon' />
                   <span>
-                    <Link to="tel:trooyoga@email.com">trooyoga@email.com </Link>
+                    <Link to="tel:trooyoga@email.com">troospa@email.com </Link>
                     <Link to="tel:info@trootheme.com"> info@trootheme.com</Link>
                   </span>
                 </li>

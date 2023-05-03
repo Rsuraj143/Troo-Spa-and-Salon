@@ -5,24 +5,24 @@ import { Link, createSearchParams } from "react-router-dom";
 
 const TeamComponent2 = () => {
   return (
-    <section class="troo-da-team-section" id="troo-da-team-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="troo-tile">
+    <section className="troo-da-team-section" id="troo-da-team-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="troo-tile">
               <span>Our owesome team</span>
               <h2>We have best therapist for you</h2>
             </div>
           </div>
-          <div class="row">
+          <div className="row">
             {TeamData.slice(0, 3).map((e, i) => (
-              <div class="col-md-4" key={i}>
+              <div className="col-md-4" key={i}>
                <Link to={`/Home/Our_Team/Team_Details?${createSearchParams({id : e.id})}`}>
-               <div class="team-col">
-                  <div class="team-img">
+               <div className="team-col">
+                  <div className="team-img">
                     <img src={e.img} alt="team1" />
-                    <div class="plus-minus-toggle">
-                      <div class="socaik-icon">
+                    <div className="plus-minus-toggle">
+                      <div className="socaik-icon">
                         {e.social.map((ele, ind) => (
                           <Link to={ele.path}>
                             <img src={ele.icon} alt="insta" />
@@ -31,7 +31,7 @@ const TeamComponent2 = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="team-dails">
+                  <div className="team-dails">
                     <h4>{e.name}</h4>
                     <p>{e.Title} </p>
                   </div>
@@ -40,15 +40,15 @@ const TeamComponent2 = () => {
               </div>
             ))}
           </div>
-          <div class="row">
+          <div className="row">
             {TeamData.slice(3, 6).map((e, i) => (
-              <div class="col-md-4" key={i}>
+              <div className="col-md-4" key={i}>
                 <Link to={`/Home/Our_Team/Team_Details?${createSearchParams({id : e.id})}`}>
-                <div class="team-col">
-                  <div class="team-img">
+                <div className="team-col">
+                  <div className="team-img">
                     <img src={e.img} alt="team1" />
-                    <div class="plus-minus-toggle">
-                      <div class="socaik-icon">
+                    <div className="plus-minus-toggle">
+                      <div className="socaik-icon">
                         {e.social.map((ele, ind) => (
                           <Link to={ele.path}>
                             <img src={ele.icon} alt="insta" />
@@ -57,7 +57,7 @@ const TeamComponent2 = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="team-dails">
+                  <div className="team-dails">
                     <h4>{e.name}</h4>
                     <p>{e.Title} </p>
                   </div>

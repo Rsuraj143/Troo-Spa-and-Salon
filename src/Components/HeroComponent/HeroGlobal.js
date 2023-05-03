@@ -65,11 +65,11 @@ const HeroGlobal = () => {
     setBreadcrumbs(breadcrumbs);
   }, [location]);
   return (
-    <section class="troo-da-sub-page-section" id="troo-da-sub-page-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-page-text">
+    <section className="troo-da-sub-page-section" id="troo-da-sub-page-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-page-text">
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   {breadcrumbs.map((breadcrumb, index) => (

@@ -5,18 +5,18 @@ import { Link, createSearchParams } from "react-router-dom";
 
 const WorkComponent2 = () => {
   return (
-    <section class="troo-da-our-work-section" id="troo-da-our-work-section">
-      <div class="container">
-        <div class="row">
+    <section className="troo-da-our-work-section" id="troo-da-our-work-section">
+      <div className="container">
+        <div className="row">
           {WorkData.slice(0, 3).map((e, i) => (
-            <div class="col-md-4" key={i}>
+            <div className="col-md-4" key={i}>
               <Link to={`/Home/Our_Works/Work_Details?${createSearchParams({id : e.id})}`}>
-              <div class="work-col">
+              <div className="work-col">
                 <img src={e.img} alt="work1" />
-                <div class="work-text">
+                <div className="work-text">
                   <p>{e.title} </p>
                   <h5>{e.name} </h5>
-                  <div class="arrow-im">
+                  <div className="arrow-im">
                     <img src={e.arrow} alt="arrow" />
                   </div>
                 </div>
@@ -25,16 +25,16 @@ const WorkComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {WorkData.slice(3, 6).map((e, i) => (
-            <div class="col-md-4" key={i}>
+            <div className="col-md-4" key={i}>
               <Link to={`/Home/Our_Works/Work_Details?${createSearchParams({id : e.id})}`}>
-              <div class="work-col">
+              <div className="work-col">
                 <img src={e.img} alt="work1" />
-                <div class="work-text">
+                <div className="work-text">
                   <p>{e.title} </p>
                   <h5>{e.name} </h5>
-                  <div class="arrow-im">
+                  <div className="arrow-im">
                     <img src={e.arrow} alt="arrow" />
                   </div>
                 </div>
@@ -43,16 +43,16 @@ const WorkComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {WorkData.slice(6, 9).map((e, i) => (
-            <div class="col-md-4" key={i}>
+            <div className="col-md-4" key={i}>
              <Link to={`/Home/Our_Works/Work_Details?${createSearchParams({id : e.id})}`}>
-             <div class="work-col">
+             <div className="work-col">
                 <img src={e.img} alt="work1" />
-                <div class="work-text">
+                <div className="work-text">
                   <p>{e.title} </p>
                   <h5>{e.name} </h5>
-                  <div class="arrow-im">
+                  <div className="arrow-im">
                     <img src={e.arrow} alt="arrow" />
                   </div>
                 </div>

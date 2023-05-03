@@ -12,17 +12,17 @@ import "./BlogDetailsComponent.css"
 const BlogDetailsComponent = () => {
   return (
     <section
-      class="troo-da-services-details-section"
+      className="troo-da-services-details-section"
       id="troo-da-services-details-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="services-detils-ss">
-              <div class="ser-img">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
+            <div className="services-detils-ss">
+              <div className="ser-img">
                 <img src={blockimg} alt="blockimg" />
               </div>
-              <div class="ser-text">
+              <div className="ser-text">
                 <h4>Discription</h4>
                 <p>
                   Lorem Ipsum is simply dummy text of the printin and
@@ -50,38 +50,38 @@ const BlogDetailsComponent = () => {
                 </p>
               </div>
             </div>
-            <div class="provied-ss  blog-de-txt">
-              <div class="pro-icon">
+            <div className="provied-ss  blog-de-txt">
+              <div className="pro-icon">
                 <img src={blog99} alt="blog99" />
               </div>
-              <div class="pro-txt">
+              <div className="pro-txt">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry simply
                   dummy text of the printing and{" "}
                 </p>
-                <div class="bloger">
+                <div className="bloger">
                   <h5>
                     Maria miranda, <span>CEO and Founder</span>
                   </h5>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="ser-bttom-img">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="ser-bttom-img">
                   <img src={blogdtls1} alt="blockdtls1" />
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="ser-bttom-img">
+              <div className="col-md-6">
+                <div className="ser-bttom-img">
                   <img src={blogdtls2} alt="blogdtls2" />
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="title-goes">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="title-goes">
                   <h4> Your title goes here</h4>
                   <p>
                     Lorem Ipsum is simply dummy text of the printin and
@@ -93,9 +93,9 @@ const BlogDetailsComponent = () => {
                     essentially unchanged.
                   </p>
                 </div>
-                <div class="share-socail-icon">
+                <div className="share-socail-icon">
                   <p>Share This Articl</p>
-                  <div class="socail-icons">
+                  <div className="socail-icons">
                     <ul>
                       <li>
                         <Link to="#">
@@ -117,35 +117,35 @@ const BlogDetailsComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="commet-from contact-form">
+            <div className="commet-from contact-form">
               <h4>Comments (0)</h4>
               <span>Submit a Comment</span>
-              <form class="row g-3">
-                <div class="col-md-12">
-                  <label for="inputName" class="form-label">
+              <form className="row g-3">
+                <div className="col-md-12">
+                  <label for="inputName" className="form-label">
                     Enter Your Name
                   </label>
                   <input
                     type="Name"
-                    class="form-control"
+                    className="form-control"
                     id="inputName"
                     placeholder="John Doe"
                   />
                 </div>
-                <div class="col-12">
-                  <label for="inputEmail" class="form-label">
+                <div className="col-12">
+                  <label for="inputEmail" className="form-label">
                     Enter Your Email
                   </label>
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="inputEmail"
                     placeholder="iamjohndoe@email.com"
                   />
                 </div>
 
-                <div class="col-md-12">
-                  <label for="inputMessage" class="form-label">
+                <div className="col-md-12">
+                  <label for="inputMessage" className="form-label">
                     Message
                   </label>
                   <textarea
@@ -156,14 +156,14 @@ const BlogDetailsComponent = () => {
                     placeholder="Write somethings......."
                   ></textarea>
                 </div>
-                <div class="col-12">
-                  <div class="form-check">
+                <div className="col-12">
+                  <div className="form-check">
                     <input
-                      class="form-check-input"
+                      className="form-check-input"
                       type="checkbox"
                       id="gridCheck"
                     />
-                    <label class="form-check-label" for="gridCheck">
+                    <label className="form-check-label" for="gridCheck">
                       Save my name, email, and website in this browser for the
                       next time I comment.
                     </label>
@@ -172,9 +172,9 @@ const BlogDetailsComponent = () => {
               </form>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="sidebar">
-              <div class="therapy-detail">
+          <div className="col-md-4">
+            <div className="sidebar">
+              <div className="therapy-detail">
                 <h4>Blog Detail</h4>
                 <ul>
                   <li>
@@ -191,7 +191,7 @@ const BlogDetailsComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="therapy-detail more-services blog-cat">
+              <div className="therapy-detail more-services blog-cat">
                 <h4>Categories</h4>
                 <ul>
                   <li>
@@ -226,27 +226,27 @@ const BlogDetailsComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="therapy-detail tages">
+              <div className="therapy-detail tages">
                 <h4>Tags</h4>
                 <ul>
                   <li>Therapy</li>
                   <li>Massage</li>
                   <li>Body Treatments</li>
                 </ul>
-                <ul class="hri-s">
+                <ul className="hri-s">
                   <li>Hair and Salon</li>
                   <li>Body Massage</li>
                   <li>Aroma</li>
                 </ul>
               </div>
-              <div class="offer-section">
-                <div class="off-text">
+              <div className="offer-section">
+                <div className="off-text">
                   <span>Spa and Salon</span>
                   <strong>30%</strong>
                   <p>Discount on Massage and spa Therapy</p>
                 </div>
               </div>
-              <div class="book-ss">
+              <div className="book-ss">
                 <h4>Book an Appointment</h4>
               </div>
             </div>

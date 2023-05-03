@@ -8,12 +8,12 @@ import willness from "../../Images/wellness-center.png"
 
 const AboutComponent = () => {
   return (
-    <section class="troo-da-welcome-section" id="troo-da-welcome-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="welcome-text">
-            <div class="troo-tile">
+    <section className="troo-da-welcome-section" id="troo-da-welcome-section">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6">
+          <div className="welcome-text">
+            <div className="troo-tile">
               <span>Learn about who we are</span>
               <h2>Welcome toan incredible spa and salon experience</h2>
             </div>
@@ -27,23 +27,23 @@ const AboutComponent = () => {
               <li><img src={check} alt='check' />Using powerful lorem ipsum dollr sit amet just dummy.</li>
               <li><img src={check} alt='check' />Lorem ipsum dollr sit amet just dummy.</li>
             </ul>
-            <div class="make-btn"> <Link to="/Home/Contact_Us" class="btn btn-lg"> <span>Contact With US</span></Link></div>
+            <div className="make-btn"> <Link to="/Home/Contact_Us" className="btn btn-lg"> <span>Contact With US</span></Link></div>
           </div>
         </div>
-        <div class="col-md-6 womenSkin">
-          <div class="welcome-img">
+        <div className="col-md-6 womenSkin">
+          <div className="welcome-img">
             <img src={womenSkin} alt='womenSkin' />
           </div>
-          <div class="welcome-call">
-            <div class="icon-cll">
+          <div className="welcome-call">
+            <div className="icon-cll">
               <img src={messangeChart} alt='messangeChart' />
             </div>
-            <div class="wel-cll-text">
+            <div className="wel-cll-text">
               <p>Let’s talk with us</p>
               <h3>+44 123 456 7890</h3>
               <h3>info@dcthemes.com</h3>
             </div>
-            <div class="we-ico">
+            <div className="we-ico">
               <img src={willness} alt='willness' />
             </div>
           </div>

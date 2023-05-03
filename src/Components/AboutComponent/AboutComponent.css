@@ -40,7 +40,6 @@
   border-radius: 5px;
   width: 100%;
   padding-left: 0px;
-  
 }
 section#troo-da-welcome-section {
   background-image: url(../../Images/BG.png);
@@ -51,7 +50,7 @@ section#troo-da-welcome-section {
 .welcome-img {
   position: relative;
 }
-#troo-da-welcome-section .col-md-6.womenSkin{
+#troo-da-welcome-section .col-md-6.womenSkin {
   position: relative;
   padding: 0 50px;
 }
@@ -64,7 +63,7 @@ section#troo-da-welcome-section {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-size: cover
+  background-size: cover;
 }
 .welcome-call {
   background: #3e1f5c;
@@ -188,7 +187,7 @@ section#troo-da-welcome-section {
 }
 
 @media (max-width: 991px) {
-  #troo-da-welcome-section .col-md-6.womenSkin{
+  #troo-da-welcome-section .col-md-6.womenSkin {
     padding: 0 20px;
   }
   .welcome-img img {
@@ -222,4 +221,21 @@ section#troo-da-welcome-section {
   .wel-cll-text {
     padding-left: 0px;
   }
+}
+
+@media (max-width: 414px) {
+  section#troo-da-welcome-section {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  .troo-tile span {
+    font-size: 24px;
+  }
+  .welcome-text ul li{
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+
 }

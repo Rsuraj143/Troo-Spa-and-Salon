@@ -208,4 +208,11 @@ section#troo-da-review-section:after {
     max-width: inherit;
     margin-top: 30px;
   }
+  section#troo-da-review-section .review2ndrow{
+    margin-top: 50px;
+  }
+  section#troo-da-review-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }

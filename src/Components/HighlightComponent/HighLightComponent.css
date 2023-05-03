@@ -204,8 +204,9 @@ section#troo-da-why-choose-section {
     display: flex;
     padding-top: 40px;
     cursor: pointer;
-    flex-wrap: wrap;
+    column-gap: 10px;
   }
+
   .chose-list-text {
     padding-left: 0;
   }

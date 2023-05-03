@@ -77,7 +77,7 @@ li.nav-item {
   height: 27px;
   text-align: center;
 }
-.socail-icon ul li a:hover i {
+.socail-icon ul li a:hover svg {
   background: #89a155;
   color: #fff;
 }
@@ -156,7 +156,9 @@ li.nav-item {
   border-bottom: 1px solid #e27394;
   margin-bottom: 19px;
 }
-
+.btn-close:focus{
+  box-shadow: none !important;
+}
 .offcanvas-body {
   padding: 6px 38px;
 }
@@ -236,18 +238,11 @@ button.hum-btn:hover {
     right: 13px;
     top: 23px;
   }
-  
-  /* .nav-link.test button.btn.btn-primary {
-    padding: 0 10px;
-  } */
 }
 @media (max-width: 1500px) {
   .navbar-expand-lg .navbar-collapse {
     justify-content: flsex-start;
   }
-}
-
-@media  (max-width: 1400px) {
   .header section#troo-da-header-section a.nav-link {
     padding: 0 15px !important;
     font-size: 16px;
@@ -256,6 +251,13 @@ button.hum-btn:hover {
     padding: 0 15px !important;
     font-size: 16px;
   }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: start;
+}
+}
+
+@media  (max-width: 1400px) {
+  
   .header .make-btn .btn {
     padding: 10px 11px !important;
     font-size: 13px !important;
@@ -267,9 +269,7 @@ button.hum-btn:hover {
   .socail-icons {
     display: none;
   }
-  .navbar-expand-lg .navbar-collapse {
-    justify-content: start;
-}
+ 
 }
 
 @media (max-width: 1199px) {

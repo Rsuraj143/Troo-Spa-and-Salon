@@ -5,26 +5,26 @@ const ContactComponent = () => {
   return (
     <>
       <section
-        class="troo-da-contact-page-section"
+        className="troo-da-contact-page-section"
         id="troo-da-contact-page-section"
       >
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="troo-tile">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="troo-tile">
                 <span>Our contact detail</span>
                 <h2>Let’s talk to with us</h2>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="troo-contact">
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="conatct-col">
-                      <div class="contact-ss">
-                        <div class="contcat-img">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="troo-contact">
+                <div className="row">
+                  <div className="col-md-4">
+                    <div className="conatct-col">
+                      <div className="contact-ss">
+                        <div className="contcat-img">
                           <svg
                             width="19"
                             height="18"
@@ -49,14 +49,14 @@ const ContactComponent = () => {
                             </defs>
                           </svg>
                         </div>
-                        <div class="contact-deials">
+                        <div className="contact-deials">
                           <h5>Contact Us</h5>
                           <a href="tel:+44 123 456 7890">+44 123 456 7890</a>
                           <a href="mailto:info@troospa.com">info@troospa.com</a>
                         </div>
                       </div>
-                      <div class="contact-ss">
-                        <div class="contcat-img">
+                      <div className="contact-ss">
+                        <div className="contcat-img">
                           <svg
                             width="30"
                             height="30"
@@ -74,13 +74,13 @@ const ContactComponent = () => {
                             />
                           </svg>
                         </div>
-                        <div class="contact-deials">
+                        <div className="contact-deials">
                           <h5>Our Address</h5>
                           <p>916 Water St, Ketchikan, Alaska 99901, USA</p>
                         </div>
                       </div>
-                      <div class="contact-ss">
-                        <div class="contcat-img">
+                      <div className="contact-ss">
+                        <div className="contcat-img">
                           <svg
                             width="25"
                             height="25"
@@ -98,7 +98,7 @@ const ContactComponent = () => {
                             />
                           </svg>
                         </div>
-                        <div class="contact-deials">
+                        <div className="contact-deials">
                           <h5>Time</h5>
                           <p>Monday to Sunday 09:00 AM to 11:00PM</p>
                         </div>
@@ -106,53 +106,53 @@ const ContactComponent = () => {
                     </div>
                   </div>
 
-                  <div class="col-md-8">
-                    <div class="contact-form">
-                      <form class="row g-3">
-                        <div class="col-md-6">
-                          <label for="inputFullName" class="form-label">
+                  <div className="col-md-8">
+                    <div className="contact-form">
+                      <form className="row g-3">
+                        <div className="col-md-6">
+                          <label for="inputFullName" className="form-label">
                             Full Name
                           </label>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="FullName"
                             placeholder="Full Name"
                           />
                         </div>
-                        <div class="col-md-6">
-                          <label for="inputPhone" class="form-label">
+                        <div className="col-md-6">
+                          <label for="inputPhone" className="form-label">
                             Phone No.
                           </label>
                           <input
                             type="number"
-                            class="form-control"
+                            className="form-control"
                             id="inputPhone"
                             placeholder="Phone No."
                           />
                         </div>
-                        <div class="col-md-6">
-                          <label for="inputEmailAddress" class="form-label">
+                        <div className="col-md-6">
+                          <label for="inputEmailAddress" className="form-label">
                             Email Address
                           </label>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="inputAddress"
                             placeholder="Email Address"
                           />
                         </div>
-                        <div class="col-md-6">
-                          <label for="inputSubject" class="form-label">
+                        <div className="col-md-6">
+                          <label for="inputSubject" className="form-label">
                             Subject
                           </label>
-                          <select id="inputSubject" class="form-select">
+                          <select id="inputSubject" className="form-select">
                             <option selected>Select...</option>
                             <option>...</option>
                           </select>
                         </div>
-                        <div class="col-md-12">
-                          <label for="inputMessage" class="form-label">
+                        <div className="col-md-12">
+                          <label for="inputMessage" className="form-label">
                             Your Message
                           </label>
                           <textarea
@@ -164,8 +164,8 @@ const ContactComponent = () => {
                           ></textarea>
                         </div>
 
-                        <div class="col-12">
-                          <button type="submit" class="btn btn-primary">
+                        <div className="col-12">
+                          <button type="submit" className="btn btn-primary">
                             Send a Message
                           </button>
                         </div>
@@ -179,10 +179,10 @@ const ContactComponent = () => {
         </div>
       </section>
 
-      <section class="troo-da-map-section" id="troo-da-map-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
+      <section className="troo-da-map-section" id="troo-da-map-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8850349918985!2d72.49642611542339!3d23.027993021903114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b278e046fa5%3A0xd837def63555f791!2sTRooInbound%20Private%20Limited!5e0!3m2!1sen!2sin!4v1677742549252!5m2!1sen!2sin"
                 width="600"

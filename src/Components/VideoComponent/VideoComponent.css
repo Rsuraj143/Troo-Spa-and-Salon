@@ -11,7 +11,7 @@
 #troo-da-video-section {
   background-image: url("../../Images/video-bg.png");
   height: 579px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

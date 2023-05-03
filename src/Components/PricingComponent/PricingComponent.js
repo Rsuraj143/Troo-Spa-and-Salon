@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 
 const PricingComponent = () => {
   return (
-    <section class="troo-da-price-section" id="troo-da-price-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <div class="troo-tile">
+    <section className="troo-da-price-section" id="troo-da-price-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-7">
+            <div className="troo-tile">
               <span>Price we offer</span>
               <h2>Our pricing affordable plans</h2>
             </div>
           </div>
-          <div class="col-md-5">
-            <div class="pricing-text">
+          <div className="col-md-5">
+            <div className="pricing-text">
               <p>
                 It is a long established fact that it is also reader we arewill
                 be distracted by the readable.
@@ -22,20 +22,20 @@ const PricingComponent = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="pricing-col">
-              <div class="pricing-ss">
-                <div class="pricing-title">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="pricing-col">
+              <div className="pricing-ss">
+                <div className="pricing-title">
                   <h4>Traditional package</h4>
-                  <div class="review-star">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                  <div className="review-star">
+                    <i className="fa fa-star" aria-hidden="true"></i>
+                    <i className="fa fa-star" aria-hidden="true"></i>
+                    <i className="fa fa-star" aria-hidden="true"></i>
+                    <i className="fa fa-star" aria-hidden="true"></i>
                   </div>
                 </div>
-                <div class="pricing-icon">
+                <div className="pricing-icon">
                   <svg
                     width="35"
                     height="35"
@@ -53,7 +53,7 @@ const PricingComponent = () => {
                   </svg>
                 </div>
               </div>
-              <div class="pricing-list">
+              <div className="pricing-list">
                 <ul>
                   <li>
                     <svg
@@ -159,33 +159,33 @@ const PricingComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="price-rate">
+              <div className="price-rate">
                 <span>$</span>
-                <div class="rate-text">29.00</div>
-                <div class="pakage-pric">/ Monthy packege</div>
+                <div className="rate-text">29.00</div>
+                <div className="pakage-pric">/ Monthy packege</div>
               </div>
-              <div class="make-btn">
+              <div className="make-btn">
                 {" "}
-                <Link href="#" class="btn btn-lg">
+                <Link href="#" className="btn btn-lg">
                   {" "}
                   <span>Select This Plan</span>
                 </Link>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="pricing-col">
-              <div class="pricing-ss">
-                <div class="pricing-title">
+          <div className="col-md-4">
+            <div className="pricing-col">
+              <div className="pricing-ss">
+                <div className="pricing-title">
                   <h4>Luxury package</h4>
-                  <div class="review-star">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                  <div className="review-star">
+                    <i className="fa fa-star" aria-hidden="true"></i>
+                    <i className="fa fa-star" aria-hidden="true"></i>
+                    <i className="fa fa-star" aria-hidden="true"></i>
+                    <i className="fa fa-star" aria-hidden="true"></i>
                   </div>
                 </div>
-                <div class="pricing-icon">
+                <div className="pricing-icon">
                   <svg
                     width="35"
                     height="35"
@@ -203,7 +203,7 @@ const PricingComponent = () => {
                   </svg>
                 </div>
               </div>
-              <div class="pricing-list">
+              <div className="pricing-list">
                 <ul>
                   <li>
                     <svg
@@ -309,31 +309,31 @@ const PricingComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="price-rate">
+              <div className="price-rate">
                 <span>$</span>
-                <div class="rate-text">49.00</div>
-                <div class="pakage-pric">/ Monthy packege</div>
+                <div className="rate-text">49.00</div>
+                <div className="pakage-pric">/ Monthy packege</div>
               </div>
-              <div class="make-btn">
-                <Link href="#" class="btn btn-lg">
+              <div className="make-btn">
+                <Link href="#" className="btn btn-lg">
                   <span>Select This Plan</span>
                 </Link>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="pricing-col">
-              <div class="pricing-ss">
-                <div class="pricing-title">
+          <div className="col-md-4">
+            <div className="pricing-col">
+              <div className="pricing-ss">
+                <div className="pricing-title">
                   <h4>Parsonalized package</h4>
-                  <div class="review-star">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                  <div className="review-star">
+                    <i className="fa fa-star" aria-hidden="true"></i>
+                    <i className="fa fa-star" aria-hidden="true"></i>
+                    <i className="fa fa-star" aria-hidden="true"></i>
+                    <i className="fa fa-star" aria-hidden="true"></i>
                   </div>
                 </div>
-                <div class="pricing-icon">
+                <div className="pricing-icon">
                   <svg
                     width="35"
                     height="35"
@@ -372,7 +372,7 @@ const PricingComponent = () => {
                   </svg>
                 </div>
               </div>
-              <div class="pricing-list">
+              <div className="pricing-list">
                 <ul>
                   <li>
                     <svg
@@ -478,24 +478,24 @@ const PricingComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="price-rate">
+              <div className="price-rate">
                 <span>$</span>
-                <div class="rate-text">99.00</div>
-                <div class="pakage-pric">/ Monthy packege</div>
+                <div className="rate-text">99.00</div>
+                <div className="pakage-pric">/ Monthy packege</div>
               </div>
-              <div class="make-btn">
-                <Link href="#" class="btn btn-lg">
+              <div className="make-btn">
+                <Link href="#" className="btn btn-lg">
                   <span>Select This Plan</span>
                 </Link>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="view-all-pric">
-              <div class="make-btn">
-                <Link to="/Home/Pricing_Table" class="btn btn-lg">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="view-all-pric">
+              <div className="make-btn">
+                <Link to="/Home/Pricing_Table" className="btn btn-lg">
                   <span>View All Pricing Cards</span>
                 </Link>
               </div>

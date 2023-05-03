@@ -160,7 +160,7 @@ section#troo-da-price-section .row {
 }
 .pricing-list ul li {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 @media (max-width: 1400px) {
@@ -204,5 +204,9 @@ section#troo-da-price-section .row {
 @media (max-width: 767px) {
   .pricing-col .make-btn a {
     padding: 17px 50px !important;
+  }
+  .troo-da-price-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }

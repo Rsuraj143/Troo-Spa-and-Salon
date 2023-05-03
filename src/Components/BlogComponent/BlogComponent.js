@@ -11,35 +11,35 @@ import { BlogData } from "./BlogData";
 
 const BlogComponent = () => {
   return (
-    <section class="troo-da-blog-section" id="troo-da-blog-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <div class="troo-tile">
+    <section className="troo-da-blog-section" id="troo-da-blog-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-5">
+            <div className="troo-tile">
               <span>Our news and blogs</span>
               <h2>Stay uptodate with our news and blogs</h2>
             </div>
           </div>
-          <div class="col-md-7">
-            <div class="blog-view-btn">
-              <div class="make-btn">
-                <Link to="/Home/Blogs" class="btn btn-lg">
+          <div className="col-md-7">
+            <div className="blog-view-btn">
+              <div className="make-btn">
+                <Link to="/Home/Blogs" className="btn btn-lg">
                   <span>View All Blogs</span>
                 </Link>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           {BlogData.slice(0, 3).map((e, i) => (
-            <div class="col-md-4" key={i}>
+            <div className="col-md-4" key={i}>
               <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id : e.id})}`}>
-              <div class="blog-section">
-                <div class="blog-text">
+              <div className="blog-section">
+                <div className="blog-text">
                   <span>{e.date} </span>
                   <h4>{e.name} </h4>
                   <p>{e.para} </p>
-                  <div class="blog-arrow">
+                  <div className="blog-arrow">
                     <img src={e.arrow} alt="whiteArrow" />
                   </div>
                 </div>
@@ -48,16 +48,16 @@ const BlogComponent = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {BlogData.slice(3, 5).map((e, i) => (
-            <div class="col-md-4" key={i}>
+            <div className="col-md-4" key={i}>
               <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id : e.id})}`}>
-              <div class="blog-section">
-                <div class="blog-text">
+              <div className="blog-section">
+                <div className="blog-text">
                   <span>{e.date} </span>
                   <h4>{e.name} </h4>
                   <p>{e.para} </p>
-                  <div class="blog-arrow">
+                  <div className="blog-arrow">
                     <img src={e.arrow} alt="whiteArrow" />
                   </div>
                 </div>
@@ -66,34 +66,34 @@ const BlogComponent = () => {
             </div>
           ))}
         </div>
-        <div class="row">
-          <div class="col-md-2">
-            <div class="brand-logo">
+        <div className="row">
+          <div className="col-md-2">
+            <div className="brand-logo">
               <img src={logo1} alt="logo1" />
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="brand-logo">
+          <div className="col-md-2">
+            <div className="brand-logo">
               <img src={logo2} alt="logo2" />
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="brand-logo">
+          <div className="col-md-2">
+            <div className="brand-logo">
               <img src={logo3} alt="logo3" />
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="brand-logo">
+          <div className="col-md-2">
+            <div className="brand-logo">
               <img src={logo4} alt="logo4" />
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="brand-logo">
+          <div className="col-md-2">
+            <div className="brand-logo">
               <img src={logo5} alt="logo5" />
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="brand-logo">
+          <div className="col-md-2">
+            <div className="brand-logo">
               <img src={logo6} alt="logo6" />
             </div>
           </div>

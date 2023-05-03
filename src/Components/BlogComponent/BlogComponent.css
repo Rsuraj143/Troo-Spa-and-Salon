@@ -118,6 +118,9 @@ section#troo-da-blog-section .row {
   .blog-text h4 br {
     display: none;
   }
+  .brand-logo img {
+    width: 100%;
+  }
 }
 @media (max-width: 991px) {
   .blog-text h4 {
@@ -147,7 +150,7 @@ section#troo-da-blog-section .row {
     width: auto;
   }
   #troo-da-blog-section {
-    padding-bottom: 0;
-    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 }

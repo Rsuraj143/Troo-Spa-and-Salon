@@ -23,7 +23,7 @@ section#troo-da-team-section .troo-tile {
 .team-img img {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 94%;
 }
 section#troo-da-team-section .row {
   justify-content: center;
@@ -115,10 +115,6 @@ section#troo-da-team-section .make-btn {
     bottom: -97px;
     padding-top: 68px;
   }
-  .team-img img {
-    width: 100%;
-    max-width: 195px;
-  }
   section#troo-da-team-section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -127,12 +123,18 @@ section#troo-da-team-section .make-btn {
 
 @media (max-width: 991px) {
   .team-col {
-    margin-bottom: 41%;
+    margin-bottom: 35%;
   }
 }
+
 @media (max-width: 767px) {
-  .team-img img {
-    width: 100%;
-    max-width: 306px;
+  section#troo-da-team-section .make-btn {
+    margin: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 414px){
+  .team-col {
+    margin-bottom: 50%;
   }
 }

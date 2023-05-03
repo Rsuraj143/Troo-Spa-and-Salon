@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const HeroComponent = () => {
   return (
-    <section class="troo-da-hero-section" id="troo-da-hero-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="banner-text">
-              <div class="sub-title">We are your truly beauty specialist</div>
+    <section className="troo-da-hero-section" id="troo-da-hero-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="banner-text">
+              <div className="sub-title">We are your truly beauty specialist</div>
               <h1>
                 Redefined the beauty with luxury <span>spa and salon</span>{" "}
                 treatments
@@ -23,13 +23,13 @@ const HeroComponent = () => {
                 here.
               </p>
             </div>
-            <div class="troo-btn">
-              <div class="make-btn">
-                <Link to="/Home/Make_An_Appointment" class="btn btn-lg">
+            <div className="troo-btn">
+              <div className="make-btn">
+                <Link to="/Home/Make_An_Appointment" className="btn btn-lg">
                   <span>Make An Appointment</span>
                 </Link>
               </div>
-              <div class="view-services">
+              <div className="view-services">
                 <Link to="/Home/Our_Services" class="btn">
                   View Our Services
                 </Link>

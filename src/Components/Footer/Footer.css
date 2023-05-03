@@ -1,8 +1,7 @@
 #troo-da-footer-section {
   background-image: url(../../Images/Group.png);
   background-color: rgba(226, 115, 148, 0.05);
-  padding-top: 185px;
-  padding-bottom: 30px;
+  padding-top: 170px;
   background-size: cover;
 }
 .logo-ss {
@@ -137,6 +136,7 @@ section#troo-da-footer-section .row {
 }
 .botm-text {
   margin-top: 63px;
+  margin-bottom: 20px;
 }
 .botm-text ul li a:hover {
   color: #e27394;
@@ -145,7 +145,7 @@ section#troo-da-footer-section .row {
   color: #e27394;
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
   .bottom-footer-lilnks h6 {
     font-size: 18px;
   }
@@ -159,7 +159,6 @@ section#troo-da-footer-section .row {
   }
   .bottom-footer-lilnks a {
     font-size: 14px;
-    white-space: pre;
   }
   .bottom-footer-lilnks span {
     white-space: pre;
@@ -191,7 +190,6 @@ section#troo-da-footer-section .row {
   }
   .bottom-footer-lilnks a {
     font-size: 14px;
-    white-space: pre;
   }
   .bottom-footer-lilnks span {
     white-space: pre;
@@ -206,7 +204,12 @@ section#troo-da-footer-section .row {
   }
 }
 
-@media(max-width:767px) {
-  .bottom-footer-lilnks.time-call { margin-left: 0px; }
-  .botm-text { margin-top: 30px;}
+@media (max-width: 767px) {
+  .bottom-footer-lilnks.time-call {
+    margin-left: 0px;
+  }
+  .botm-text {
+    margin-top: 30px;
+  }
+ 
 }

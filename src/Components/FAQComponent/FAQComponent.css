@@ -111,10 +111,14 @@ section#troo-da-faq-section .troo-tile {
   border-bottom: 1px solid #e27394;
   color: #e27394;
   text-decoration: none;
+  padding-left: 10px;
 }
 .faq-btom-txt {
   text-align: center;
   padding-top: 53px;
+}
+section#troo-da-faq-section .accordion .accordion-item h2{
+  margin: 0;
 }
 
 
@@ -122,5 +126,12 @@ section#troo-da-faq-section .troo-tile {
   section#troo-da-faq-section:after{
     width: 500px;
     height: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  section#troo-da-faq-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }

@@ -9,15 +9,15 @@ import ScrollTrigger from "react-scroll-trigger";
 const CounterComponent = () => {
   const [counter, setCounter] = useState(false);
   return (
-    <div class="counder-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="counter-box">
-              <div class="conter-icon">
+    <div className="counder-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="counter-box">
+              <div className="conter-icon">
                 <img src={counter1} alt="counter1" />
               </div>
-              <div class="conter-tx">
+              <div className="conter-tx">
                 <ScrollTrigger
                   onEnter={() => setCounter(true)}
                   onExit={() => setCounter(false)}
@@ -37,12 +37,12 @@ const CounterComponent = () => {
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="counter-box">
-              <div class="conter-icon">
+          <div className="col-md-4">
+            <div className="counter-box">
+              <div className="conter-icon">
                 <img src={counter2} alt="counter2" />
               </div>
-              <div class="conter-tx">
+              <div className="conter-tx">
               <ScrollTrigger
                   onEnter={() => setCounter(true)}
                   onExit={() => setCounter(false)}
@@ -63,12 +63,12 @@ const CounterComponent = () => {
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="counter-box">
-              <div class="conter-icon">
+          <div className="col-md-4">
+            <div className="counter-box">
+              <div className="conter-icon">
                 <img src={counter3} alt="counter3" />
               </div>
-              <div class="conter-tx">
+              <div className="conter-tx">
               <ScrollTrigger
                   onEnter={() => setCounter(true)}
                   onExit={() => setCounter(false)}

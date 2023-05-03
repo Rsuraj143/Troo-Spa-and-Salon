@@ -15,18 +15,18 @@ const VideoComponent = () => {
   };
 
   return (
-    <section class="troo-da-video-section" id="troo-da-video-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="video-text">
+    <section className="troo-da-video-section" id="troo-da-video-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="video-text">
               <span>
                 Bringing peace to your body and mind with our services
               </span>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="video-popu">
+          <div className="col-md-6">
+            <div className="video-popu">
               <button onClick={openModal}>
                 <img src={videoIcon} alt="videoIcon" />
                 {modal ? (

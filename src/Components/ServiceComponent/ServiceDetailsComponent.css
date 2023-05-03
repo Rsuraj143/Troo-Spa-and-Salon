@@ -269,7 +269,9 @@ section#troo-da-services-details-section {
   .book-ss h4 {
     font-size: 20px;
   }
-
+  section#troo-da-services-details-section .ser-bttom-img{
+    margin-bottom: 20px;
+  }
   .book-ss:before {
     display: none;
   }
