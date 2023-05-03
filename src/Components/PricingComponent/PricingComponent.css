@@ -160,7 +160,6 @@ section#troo-da-price-section .row {
 }
 .pricing-list ul li {
   display: flex;
-  /* align-items: center; */
 }
 
 @media (max-width: 1400px) {
